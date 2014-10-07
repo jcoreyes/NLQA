@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Ask a question</h1>
+  <form action="" method="post" name="question">
+      {{ form.hidden_tag() }}
+      <p>
+          Please enter your question.<br>
+          {{ form.question(size=80)}}<br>
+      </p>
+      <p><input type="submit" value="Ask"></p>
+  </form>
+{% endblock %}
