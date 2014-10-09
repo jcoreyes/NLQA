@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>NLQA</title>
+<h1>Natural Language Question Answering</h1>
+<body<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+
+<p>Type in a question and see what our natural language question answering algorithms return.</p>
+Question: <input type="text" id="Question" value="">
+
+<button onclick="askQuepy()">Answer!</button>
+<!-- <button id="ans">Answer!</button> -->
+<p id="demoAnswer"></p>
+
+<script>
+function askQuepy() {
+	    // var x = document.getElementById("Question").value;
+	    // document.getElementById("demoAnswer").innerHTML = x;
+
+	    $.ajax({
+	    	url: "/quepyscript.py",
+	    	type: "POST",
+	    	data: {query: document.getElementById("Question").value},
+	    	success: function(data) {
+	    		document.getElementById("demoAnswer").innerHTML = "Quepy has received query";
+	    	}
+    	});
+	}
+</script>
+
+</body>
+</html>
+
