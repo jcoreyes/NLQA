@@ -22,7 +22,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 dbpedia = quepy.install("app")
-
+DEFAULT_RESPONSE = "It depends."
 #quepy.set_loglevel("DEBUG")
 
 
@@ -148,7 +148,7 @@ def query(question):
 
         if query is None:
             print "Query not generated :(\n"
-            return
+            return DEFAULT_RESPONSE
 
         print query
 
@@ -161,7 +161,7 @@ def query(question):
 
             if not results["results"]["bindings"]:
                 print "No answer found :("
-                return
+                return DEFAULT_RESPONSE
         #return results
         return print_handlers[query_type](results, target, metadata)
 
