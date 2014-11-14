@@ -1,0 +1,743 @@
+##############################################################
+# ABBREVIATION
+
+ABBREVIATION:ABBREVIATION
+# S: (n) abbreviation (a shortened form of a word or phrase) 
+# S: (n) acronym (a word formed from the initial letters of the several words in the name) 
+Example questions:
+	What is the acronym for the National Bureau of Investigation ?
+	What is the acronym for the rating system for air conditioner efficiency ?
+	What is the abbreviation for micro ?
+	What is the abbreviation of the company name ` General Motors ' ?
+	What is the abbreviation of General Motors ?
+	What 's the abbreviation for trinitrotoluene ?
+	What 's the abbreviation for limited partnership ?
+
+ABBREVIATION:EXPANSION:
+Example questions:
+	CNN is an acronym for what ?
+	What does the acronym CPR mean ?
+	What does the abbreviation AIDS stand for ?
+	CNN is the abbreviation for what ?
+	What does the abbreviation cwt. ?
+	What does the abbreviation IOC stand for ?
+
+##############################################################
+# DESCRIPTION
+
+DESCRIPTION:DEFINITION
+# S: (n) meaning, significance, signification, import (the message that is intended or expressed or signified) "what is the meaning of this sentence"; "the significance of a red traffic light"; "the signification of Chinese characters"; "the import of his announcement was ambiguous"
+# S: (n) meaning, substance (the idea that is intended) "What is the meaning of this proverb?"
+# S: (n) definition (a concise explanation of the meaning of a word or phrase or symbol) 
+# S: (v) define (give a definition for the meaning of a word) "Define `sadness'"
+Example hyponym: point, sense
+Example questions:
+	What is the meaning of Jesus ?
+	
+DESCRIPTION:DESCRIPTION
+# S: (n) origin (the source of something's existence or from which it derives or is derived) "the rumor had its origin in idle gossip"; "vegetable origins"; "mineral origin"; "origin in sensation"
+# S: (n) difference (the quality of being unlike or dissimilar) "there are many differences between jazz and rock"
+# S: (v) describe, depict, draw (give a description of) "He drew an elaborate plan of attack"
+Review: origin can be confused with origin as in location, such as birthplace => origin
+Example questions:
+	What is the origin of thank you notes ?	(requires WSD)
+	
+DESCRIPTION:MANNER
+
+DESCRIPTION:REASON
+# S: (n) reason, ground (a rational motive for a belief or action) "the reason that war was declared"; "the grounds for their declaration"
+Example questions:
+	What is main reason for that electric vehicles can 't be popular nowadays ?
+
+##############################################################
+# ENTITY
+	
+ENTITY:ANIMAL
+# S: (n) animal, animate being, beast, brute, creature, fauna (a living organism characterized by voluntary movement)
+# S: (n) animal group (a group of animals)  
+Example hyponym: mammal, fish, cat, flock (animal group), 
+Review: animal group
+Example questions:
+	What is the fastest fish in the world?
+	Name a flying mammal.
+	
+ENTITY:BODY-PART
+# S: (n) body part (any part of an organism such as an organ or extremity) 	
+Example hyponym: bone, organ, artery
+Example questions:
+	What part of your body contains the corpus callosum ?
+		
+ENTITY:COLOR	
+# S: (n) color, colour, coloring, colouring (a visual attribute of things that results from the light they emit or transmit or reflect) "a white color is made up of many different wavelengths of light"
+Example hyponym: shade, tone, tint, coloration, white, red
+Example questions:
+	What is the color of milk?
+	What color is blood?
+
+ENTITY:CREATIVE-MATERIAL
+# S: (n) show (a social event involving a public performance or entertainment) "they wanted to see some of the shows on Broadway"
+# S: (n) music (an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner) 
+# S: (n) book, volume (physical objects consisting of a number of pages bound together) "he used a large book as a doorstop"
+# S: (n) classic (a creation of the highest excellence) 
+# S: (n) writing, written material, piece of writing (the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect)) "the writing in her novels is excellent"; "that editorial was a fine piece of writing"
+# S: (n) art, fine art (the products of human creativity; works of art collectively) "an art exhibition"; "a fine collection of art"
+# S: (n) medium (a means or instrumentality for storing or communicating information) 
+Review: subdivide in SHOW, MUSIC, BOOK ?; "What medium" should be a different category.
+Example hyponym: movie, film, series, tv show, ballet, telefilm, talk show, performance
+Example hyponym: song, album, hymn
+Example hyponym: poem, novel, book
+Example questions:
+	What TV series features the adventures of a married couple named Jonathan and Jennifer ? => WSD
+	What is the name of the song that Dracula plays on the organ ?
+	What 1895 H.G. Wells novel was written under the title The Chronic Argonauts ?
+	What 's the U.S. Navy hymn ?
+
+ENTITY:CURRENCY
+# S: (n) currency (the metal or paper medium of exchange that is presently used)
+Example hyponym: money (WSD), coin, fiat money
+
+ENTITY:MEDICAL-DISEASE
+# S: (n) symptom ((medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease)	
+# S: (n) drug (a substance that is used as a medicine or narcotic) 
+# S: (n) medical care, medical aid (professional treatment for illness or injury) 
+# S: (n) physical condition, physiological state, physiological condition (the condition or state of the body or bodily functions) 
+Example hyponyms: therapy, disease, ailment
+Example questions:
+	What is symptomatic of flu? (symptomatic attribute of symptom => )
+	What anesthetic did Queen Victoria allow to be used for the birth of her seventh child , in 1853 ? (anesthetic => drug)
+	Name a medicine commonly used to combat AIDS ? => WSD
+		
+ENTITY:EVENT
+# S: (n) event (something that happens at a given place and time) 
+Dúvidas: disaster, hurricane?
+Example hyponym: trial, world cup, world war, battle, struggle, conflict, contest, competition, tragedy, tsunami, festival (WSD)	
+Example questions:
+	In what Olympic Games did Nadia Comaneci become popular ? => EVENT, WAS SPORT
+	What tragedy befell the city of Dogtown in 1899?
+
+ENTITY:FOOD
+# S: (n) food, nutrient (any substance that can be metabolized by an animal to give energy and build tissue)
+# S: (n) food, solid food (any solid substance (as opposed to liquid) that is used as a source of nourishment) "food and drink"
+# S: (n) fruit (the ripened reproductive body of a seed plant)
+# S: (n) helping, portion, serving (an individual quantity of food or drink taken as part of a meal) "the helpings were all small"; "his portion was larger than hers"; "there's enough for two servings each"
+Example hyponym: vitamin (food), drink (portion/food), steak (food), meat, fish, milk, dish (requires WSD), fruit
+Review: fruit => plant ?
+Example questions:
+	What soft drink contains the largest amount of caffeine?
+
+ENTITY:INSTRUMENT
+# S: (n) musical instrument, instrument (any of various devices or contrivances that can be used to produce musical tones or sounds)
+Dúvidas: instrument (WSD), generalizar para instrumento ? (medical instrument, weapon, et cetera)
+Example hyponym: guitar, piano
+Example questions:
+	What musical instrument did Ray Charles play?
+	What kind of guitar was used by Hendrix?
+		
+ENTITY:LANGUAGE
+# S: (n) language, linguistic communication (a systematic means of communicating by the use of sounds or conventional symbols) "he taught foreign languages"; "the language introduced is standard throughout the text"; "the speed with which a program can be executed depends on the language in which it is written"
+# S: (n) dialect, idiom, accent (the usage or vocabulary that is characteristic of a specific group of people) "the immigrants spoke an odd dialect of English"; "he has a strong German accent"; "it has been said that a language is a dialect with an army and navy"
+Example hyponym: language, Portuguese, Romance language, dialect
+Review: idiom
+Example questions:
+	What is the primary language in Iceland?
+
+ENTITY:LETTER
+# S: (n) letter, letter of the alphabet, alphabetic character (the conventional characters of the alphabet used to represent speech) "his grandmother taught him his letters"	
+# S: (n) character set (an ordered list of characters that are used together in writing or printing) 
+	# S: (n) alphabet (a character set that includes letters and is used to write a language) 
+Review: possible confusion with letter (as in missive or written message)
+Example hyponyms: vowel, alphabetic character, letter of the alphabet, alphabet
+Example questions:
+	What's the second-most-used vowel in English ?
+	What letter is to the right of K on a typewriter keyboard ? => WSD
+	What letter adorns the flag of Rwanda ? => WSD
+	What is the alphabet for Latin ?
+	What vowel do all Esperanto nouns end in ?
+	What are the first and last letters of the Greek alphabet ? => WSD | alphabet would help
+	
+ENTITY:PLANT
+# S: (n) vegetation, flora, botany (all the plant life in a particular region or period) "Pleistocene vegetation"; "the flora of southern California"; "the botany of China"
+# S: (n) plant, flora, plant life ((botany) a living organism lacking the power of locomotion) 
+Example hyponyms: flower, tree, shrub
+Example questions:
+	What is Australia's national flower?
+	What is California's state tree?
+	What flower did Vincent Van Gogh paint ?
+	What plant has the largest seed ? => WSD
+	
+ENTITY:PRODUCT
+# S: (n) merchandise, ware, product (commodities offered for sale) "good business depends on having good merchandise"; "that store offers a variety of products"
+# S: (n) trade name, brand name, brand, marque (a name given to a product or service) 
+Review: creation versus creative-material
+
+ENTITY:RELIGION
+# S: (n) religion, faith, religious belief (a strong belief in a supernatural power or powers that control human destiny) "he lost his faith but not his morality"
+Example hyponyms: cult, paganism
+Example questions:
+	What Caribbean cult did Marcus Garvey originate ?
+	What religion has the most members ?
+
+ENTITY:SPORT
+# S: (n) sport, athletics (an active diversion requiring physical exertion and competition) 
+# S: (n) game (a contest with rules to determine a winner) "you need four people to play this game"
+# S: (n) game (an amusement or pastime) "they played word games"; "he thought of his painting as a game that filled his empty time"; "his life was all fun and games"
+# S: (n) exercise, exercising, physical exercise, physical exertion, workout (the activity of exerting your muscles in various ways to keep fit) "the doctor recommended regular exercise"; "he did some exercising"; "the physical exertion required by his work kept him fit"
+Review: # S: (n) game (a single play of a sport or other contest) "the game lasted two hours" => event, though game also maps to event
+Example hyponyms: baseball, long jump, paintball, football, computer game (amusement)
+Example questions:
+	What was the ball game of ancient Mayans called?
+	What are some good exercises for kids to do ?
+
+ENTITY:SUBSTANCE
+# S: (n) substance (the real physical matter of which a person or thing consists) "DNA is the substance of our genes"
+Example hyponyms: chemicals, element, substrate, mixture, fuel
+Example questions:
+	What are the chemicals used in glowsticks ?
+	What organic fuel do bog-dwellers use a `` slane '' to cut ?
+
+ENTITY:SYMBOL
+# S: (n) symbol (an arbitrary sign (written or printed) that has acquired a conventional significance) 
+Review: delete this category?
+	
+ENTITY:TECHNIQUE-METHOD
+# S: (n) technique (a practical method or art applied to some particular task) 
+# S: (n) approach, attack, plan of attack (ideas or actions intended to deal with a problem or situation) "his approach to every problem is to draw up a list of pros and cons"; "an attack on inflation"; "his plan of attack was misguided"
+# S: (n) manner, mode, style, way, fashion (how something is done or how it happens) "her dignified manner"; "his rapid manner of talking"; "their nomadic mode of existence"; "in the characteristic New York style"; "a lonely way of life"; "in an abrasive fashion"
+# S: (n) method (a way of doing something, especially a systematic way; implies an orderly logical arrangement (usually in steps)) 
+# S: (n) procedure, process (a particular course of action intended to achieve a result) "the procedure of obtaining a driver's license"; "it was a process of trial and error"
+Review: delete ?
+	
+ENTITY:TERM
+# S: (n) term (a word or expression used for some particular thing) "he learned many medical terms"	
+Review: merge with WORD ?
+	
+ENTITY:VEHICLE
+# S: (n) vehicle (a conveyance that transports people or objects) 
+Example hyponyms: ship, spacecraft, vessel, car
+Example questions:
+	What were Christopher Columbus ' three ships ?
+	
+ENTITY:WORD
+# S: (n) word (a unit of language that native speakers can identify) "words are the blocks from which sentences are made"; "he hardly said ten words all morning"
+Review: merge term here (term IS A word)
+Example hyponyms: plural
+Example questions:
+	What were the five opening words on Ben Casey ?	
+	
+	
+
+ENTITY:OTHER
+> TODO
+
+##############################################################
+# HUMAN	
+	
+HUMAN:DESCRIPTION
+Example questions:
+	Who is the `` Queen Mother '' ?
+	Who is PERSON
+	Who was PERSON
+	Who was/is the ""NICKNAME""?
+	Who is Imam Hussain Ben Ali whom Shia people believe in ?
+	What information can you tell me about actor James Cromwell ?
+	Who is Ishmael in Moby Dick ?
+	Who is John Macarthur , 1767-1834 ?
+
+HUMAN:GROUP	
+# S: (n) organization, organisation (a group of people who work together)
+# S: (n) group, grouping (any number of entities (members) considered as a unit)
+Review: group demasiado genérico? dynasty, family => group ? separate? hmm
+Example hyponym: organization, enterprise, dynasty, team, manufacterer, group, tribe, school, association
+Example questions:
+	What company/enterprise/institution created the Internet browser Mosaic?
+	What schools in the Washington , DC metro area offer air traffic controller training ?
+	Who has won the most Super Bowls ?
+	What Polynesian people inhabit New Zealand ? (people => group)
+	
+HUMAN:INDIVIDUAL
+# S: (n) person, individual, someone, somebody, mortal, soul (a human being) "there was too much for one person to do"
+# S: (n) spiritual being, supernatural being (an incorporeal being believed to have powers to affect the course of human events)
+# S: (n) spirit (the vital principle or animating force within living things) 
+# S: (n) homo, man, human being, human (any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage)
+# S: (n) name (a language unit by which a person or thing is known) "his name really is George Washington"; "those are two names for the same thing"
+Review: nickname can be in other contexts, such as What is the state nickname of something
+Example hyponym: human, president, leader, god, archangel, angel, name, nickname, pseudonym, stage name, spirit, revenant
+Example questions:
+	Who was the first human in Space?
+	What was the name of the first Russian astronaut to do a spacewalk?
+	Who is the leader of India?
+	What was Mao's second name?
+	What was the infamous pseudonym of Peter Sutcliffe?
+	What is Smokey The Bear's middle name? => should be ENTITY:ANIMAL
+	
+HUMAN:TITLE
+# S: (n) title, title of respect, form of address (an identifying appellation signifying status or function: e.g. `Mr.' or `General') "the professor didn't like his friends to use his formal title"
+# S: (n) profession (the body of people in a learned occupation) "the news spread rapidly through the medical profession"; "they formed a community of scientists"
+# S: (n) occupation, business, job, line of work, line (the principal activity in your life that you do to earn money) "he's not in my line of business"
+Review: put name(nickname) here?; profession's first sense is related to a group of individuals; title appears quite often, but requires WSD
+Example hyponym: profession, 
+Example questions:
+	What is the oldest profession?
+
+
+ENTITY:FOOD ADD flavor
+
+'ENTY_OTHER' to What type of bridge is the Golden Gate Bridge?
+
+FIX THIS: > manufacturer
+
+DESC:REASON => What function
+ fear of ...  ?
+
+	
+##############################################################
+# NUMERIC		
+	
+NUMERIC:CODE
+# S: (n) code (a coding system used for transmitting messages requiring brevity or secrecy) 
+# S: (n) phone number, telephone number, number (the number is used in calling a particular telephone) "he has an unlisted number"
+Example hyponym: morse code, zip code
+
+NUMERIC:COUNT
+# S: (n) number (a concept of quantity involving zero and units) "every number has a unique position in the sequence"
+Example hyponym: constant, population			    
+Example questions:
+	What is the population of Portugal? (Requires WSD with NE country)
+	How many calories are there in a Big Mac?
+	How many Jews were executed in concentration camps during WWII ?
+	How many * (except * belongs to WEIGHT, VOLUME, et cetera => SEPARATE MAP)
+
+NUMERIC:DATE
+# S: (n) date, day of the month (the specified day of the month) "what is the date today?"
+Example hyponym: 
+Example questions:
+	When was Mozart born?
+	What is Martin Luther King's birthdate/birthday?
+	What is the date of Boxing Day?	
+	What date was the D-Day?
+	* NUM:date In which year was New Zealand excluded from the ANZUS alliance ? => YEAR
+	* NUM:date What is the busiest air travel season ? => SEASON (periof of time ..) (SUMMER, SPRING, etc.) airtravel
+	* NUM:date In what year did Thatcher become prime minister ? => YEAR
+	* NUM:date In what year was De Gaulle elected president of France ? => YEAR
+	* NUM:date What are the three winter months in the southern hemisphere ? => MONTH[S]
+	* NUM:date CNN began broadcasting in what year ?
+	* NUM:date What day was Pearl Harbor attacked in 1942 ?
+	* NUM:date What time of day did Emperor Hirohito die ?
+	* NUM:date What century does Captain Video live in ?
+
+NUMERIC:DISTANCE (linear measures/LENGTH)
+# S: (n) distance (the property created by the space between two objects or points)
+# S: (n) stature, height ((of a standing person) the distance from head to foot) 
+# S: (n) dimension (the magnitude of something in a particular direction (especially length or width or height))
+	# S: (n) length (the linear extent in space from one end to the other; the longest dimension of something that is fixed in place) "the length of the table was 5 feet"
+	# S: (n) width, breadth (the extent of something from side to side)
+	# S: (n) height, tallness (the vertical dimension of extension; distance from the base of something to the top) 
+# S: (n) linear unit, linear measure (a unit of measurement of length) 	
+# S: (n) distance, length (size of the gap between two places) "the distance from New York to Chicago"; "he determined the length of the shortest line segment joining the two points"
+# S: (n) depth, deepness (the extent downward or backward or inward) "the depth of the water"; "depth of a shelf"; "depth of a closet"
+Review: length could be confused with temporal sense of it; doesn't have many hyponyms; drop it ?
+Example hyponym: height, width, length, meter (linear unit)
+Example questions:
+	How far away is the Moon? (far attribute of distance)
+	How tall is the giraffe? (tall attribute of height/stature)
+	How high is the Empire State Building? (high attribute of height/tallness => dimension)
+	How many meters long is a soccer field? (meters => linear unit && long attribute of length => dimension)
+
+NUMERIC:MONEY
+# S: (n) outgo, spending, expenditure, outlay (money paid out; an amount spent) 	
+# S: (n) money (the most common medium of exchange; functions as legal tender) "we tried to collect the money he owed us"
+# S: (n) monetary value, price, cost (the property of having material worth (often indicated by the amount of money something would bring if sold)) "the fluctuating monetary value of gold and silver"; "he puts a high price on his services"; "he couldn't calculate the cost of the collection"
+# S: (n) price, terms, damage (the amount of money needed to purchase something) "the price of gasoline"; "he got his new car on excellent terms"; "how much is the damage?"
+# S: (n) sum, sum of money, amount, amount of money (a quantity of money) "he borrowed a large sum"; "the amount he had in cash was insufficient"
+# S: (n) monetary unit (a unit of money) 
+Example hyponym: cost, salary, price, wage, payment
+Example questions:
+	How much money does a back injury lawsuit get?
+	What is the average wage in the U.S.?
+
+NUMERIC:ORDER
+		=> REMOVE, não se justifica (what chapter of .. )
+NUMERIC:OTHER
+# S: (n) measure, quantity, amount (how much there is or how many there are of something that you can quantify)
+# number ? amount of money ..
+# people, population
+
+NUMERIC:PERCENTAGE
+# S: (n) magnitude relation, quantitative relation (a relation between magnitudes) 
+	# S: (n) rate (a magnitude or frequency relative to a time unit) "they traveled at a rate of 55 miles per hour"; "the rate of change was faster than expected"
+		# S: (n) percentage, percent, per centum, pct (a proportion in relation to a whole (which is usually the amount per hundred)) 
+# S: (n) probability (the quality of being probable; a probable event or the most probable event) "for a while mutiny seemed a probability"; "going by past experience there was a high probability that the visitors were lost"
+# S: (n) probability, chance (a measure of how likely it is that some event will occur; a number expressing the ratio of favorable cases to the whole number of cases possible) "the probability that an unbiased coin will fall with the head up is 0.5"
+Review: percentage should be named ratio, even more generic => S: (n) magnitude relation, quantitative relation (a relation between magnitudes)  [proportion, focal ratio]
+Example hyponyms: percentage, frequency, odds, probability, proportion, ratio
+Example questions:
+	What are the odds of giving birth to twins ?
+	
+NUMERIC:PERIOD
+# S: (n) time period, period of time, period (an amount of time) "a time period of 30 years"; "hastened the period of time of his recovery"; "Picasso's blue period"
+# S: (n) time unit, unit of time (a unit for measuring time periods) 
+# S: (n) age (how long something has existed) "it was replaced because of its age" => adjective old ... How old
+# S: (n) time, clip (an instance or single occasion for some event) "this time he succeeded"; "he called four times"; "he could do ten at a clip"
+# S: (n) life expectancy (an expected time to live as calculated on the basis of statistical probabilities) 
+Review: time and life expectancy are way too specific
+Example hyponym: century, year, semester, day, minute (time unit), month
+Example questions:
+	What was the average life expectancy during the Stone Age ?
+	How old is the sun ?
+	At what age did Rossini stop writing opera ?
+
+NUMERIC:SPEED
+# S: (n) speed, velocity (distance travelled per unit time)
+# S: (n) speed, swiftness, fastness (a rate (usually rapid) at which something happens) "the project advanced with gratifying speed"
+Review: speed IS A rate
+Example hyponym: terminal velocity, airspeed, groundspeed
+Example questions:
+	How fast do cheetahs run ? (fast attribute of speed)
+	What is the speed hummingbirds fly ?
+
+NUMERIC:TEMPERATURE
+# S: (n) temperature (the degree of hotness or coldness of a body or environment (corresponding to its molecular activity))
+# S: (n) temperature unit (a unit of measurement for temperature) 
+Example hyponym: room temperature, heat, hot (attribute), cold (attribute), warm (attribute), cool (attribute)
+Example questions:
+	How hot is the core of the Earth? (hot attribute of temperature)
+	What is the temperature inside Earth's core?
+
+NUMERIC:SIZE
+# S: (n) size (the physical magnitude of something (how big it is)) "a wolf is about the size of a large dog"
+# S: (n) volume (the amount of 3-dimensional space occupied by an object) "the gas expanded to twice its original volume"
+# S: (n) area, expanse, surface area (the extent of a 2-dimensional surface enclosed within a boundary) "the area of a rectangle"; "it was about 500 square feet in area"
+# S: (n) area unit, square measure (a system of units used to measure areas) 
+# S: (n) volume unit, capacity unit, capacity measure, cubage unit, cubic measure, cubic content unit, displacement unit, cubature unit (a unit of measurement of volume or capacity) 
+Review: size includes some targets of :distance, though they are covered by a more specific hyponym (length/distance)
+Example hyponym: capacity, area, volume
+Example questions:
+	What is the size of Argentina ?
+	How big is our galaxy in diameter ? (big is attribute of size)
+		
+NUMERIC:WEIGHT (MASS)
+# S: (n) mass unit (a unit of measurement for mass)
+# S: (n) weight unit, weight (a unit used to measure weight) "he placed two weights in the scale pan"
+# S: (n) weight (the vertical force exerted by a mass as a result of gravity) 
+# S: (n) mass (the property of a body that causes it to have weight in a gravitational field) 
+# S: (v) weigh (have a certain weight) 
+Example hyponym: micrograms (weight unit && mass unit); megaton (avoirdupois unit => mass unit); arroba (weight unit), atomic weight (mass)
+Example questions:
+	How many kilograms are there in a pound?
+	How heavy is an elephant? (heavy attribute of weight)
+	
+NUMERIC:RATE
+# S: (n) rate (a magnitude or frequency relative to a time unit) "they traveled at a rate of 55 miles per hour"; "the rate of change was faster than expected"	
+Example hyponym: speed, beats per minute, acceleration, bits per second
+Example questions:
+	How fast is light? (fast attribute of speed => rate)
+	
+NUMERIC:ANGLE
+# S: (n) angular unit (a unit of measurement for angles)
+Example hyponym: latitude, longitude, radian, degree
+	
+NUMERIC:VOLUME
+NUMERIC:SPEED
+NUMERIC:TEMPERATURE
+	
+##############################################################
+# LOCATION	
+	
+*** The choice of the categories for LOCATION seems to be arbitrary. For example, one could/might question why is there
+a category for MOUNTAIN, but not one for RIVER. To solve this, we further extend the location category, by
+adding more fine grained subcategories, in order to try to cover other locations which we consider important,
+and can amend the task of entity extraction.
+	
+LOCATION:CITY
+# S: (n) urban area, populated area (a geographical area constituting a city or town) 
+Example hyponyms: [municipality], city, town, national capital, capital of Portugal, Lisbon, Porto.
+Review: It's not too generic, despite the name. The next hypernym is 'geographical area', which is of course very wide in scope.	
+	common_synsets('city', 'town', 'municipality', 'capital of Portugal') all point to 'urban area'.
+	However, it could also introduce some 'towns' which are not present in a 'gazetteer' of cities.
+	Additionally (and probably the most important), in 'urban area', only the synset 'municipality' has hyponyms. 
+	The others are 'megalopolis', 'new town', 'barrio', 'Rustbelt', 'Twin Cities'.
+	There is also S: (n) residential district, residential area, community (a district where people live; occupied primarily by private residences),
+	which includes 'suburb', but they are not exactly cities, and they'll eventually map into the synset 'location', and to
+	the category LOCATION:OTHER.
+
+LOCATION:COUNTRY
+# S: (n) state, nation, country, land, commonwealth, res publica, body politic (a politically organized body of people under a single government) "the state has elected a new president"; "African nations"; "students who had come to the nation's capitol"; "the country's largest manufacturer"; "an industrialized land"
+S: (n) colony, dependency (a geographical area politically controlled by a distant country)
+Review: Many questions in the corpus consider that the answer to "What is nationality of *" is LOCATION:COUNTRY.
+	Should we map "nationality" as well?
+Example questions:
+	What are the Nordic nations ?
+	
+LOCATION:MOUNTAIN
+# S: (n) mountain, mount (a land mass that projects well above its surroundings; higher than a hill)
+# S: (n) vent, volcano (a fissure in the earth's crust (or in the surface of some other planet) through which molten lava and gases erupt)
+# S: (n) range, mountain range, range of mountains, chain, mountain chain, chain of mountains (a series of hills or mountains) "the valley was between two ranges of hills"; "the plains lay just beyond the mountain range"
+Example hyponyms: alp, volcano, mountain range
+Reason: Generalize to S: (n) geological formation, formation ((geology) the geological features of the earth) ?
+	Check dbpedia if it helps.
+	
+LOCATION:OTHER
+# S: (n) location (a point or extent in space) 
+# S: (n) land, dry land, earth, ground, solid ground, terra firma (the solid part of the earth's surface) "the plane turned away from the sea and moved back over land"; "the earth shook for several minutes"; "he dropped the logs on the ground"
+# S: (n) celestial body, heavenly body (natural objects visible in the sky) 
+# S: (n) body of water, water (the part of the earth's surface covered with water (such as a river or lake or ocean)) "they invaded our territorial waters"; "they were sitting by the water's edge"
+Example hyponyms: center, hub, seaport, planet, Neptuno, river, sea, continent, island, forest
+Review: Basically, everything that doesn't fit in the other more LOCATION specific categories.
+Review: Structures/buildings? But first we need to fix the training and test set. Ideally, structure would be a new LOCATION:STRUCTURE.
+Example questions:
+	What Russian seaport has a name meaning "Lord of the East"?
+	What Nevada center has been dubbed "The Biggest Little City in the World"?
+	What French seaport claims to be The Home of Wines?
+			
+LOCATION:STATE
+# S: (n) state, province (the territory occupied by one of the constituent administrative districts of a nation) "his state is in the deep south"
+Example hyponyms: commonwealth, American state
+Example questions:
+	What province is Edmonton located in?
+	
+
+# NEW CATEGORIES
+
+* NEW * ENTITY:CELESTIAL-BODY
+# S: (n) celestial body, heavenly body (natural objects visible in the sky)
+Example questions:
+	What is the biggest planet in the solar system?
+	What is the largest star in the solar system?
+	
+ENTITY:STRUCTURE 
+# S: (n) structure, construction (a thing constructed; a complex entity constructed of many parts) "the structure consisted of a series of arches"; "she wore her hair in an amazing construction of whirls and ribbons"
+# S: (n) facility, installation (a building or place that provides a particular service or is used for a particular industry) "the assembly plant is an enormous facility"
+Dúvidas: artifact ? (demasiado genérico ...) statue.. Statue of Liberty => artifact mas também construction/structure
+Dúvidas: para estátuas (david, etc) utilizar creation ?
+Example hyponym: airport (facility), tower, bridge
+Example questions:
+	What type of bridge is the Golden Gate Bridge? (structure)
+	What famous tower is located in Paris?	(structure)
+	What is the name of Manchester United's stadium? (structure)
+	What famous museum is located in Paris? (facility)
+... SHOULD BE LOCATION:STRUCTURE, because NER taggers tag structures such as Statue of Liberty to LOCATION.
+	
+ENTITY:MUSIC
+S: (n) music (an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner) 
+Example hyponyms: song,opera,opus,piece of music,overture,waltz,tune,air
+Example questions:
+	Name a famous waltz composed by Johann Strauss. (WSD plays an important role here to disambiguate waltz)
+	What was the name of the opera composed by Beethoven?
+	Name songs that were written by The Beatles.
+	What ilustrious overture was written to celebrate Russian victory over Napoleon?	
+	What famous overture was composed by Richard Wagner?
+
+
+	
+NUMERIC
+NUMERIC:WEIGHT
+NUMERIC:CAPACITY
+
+
+unit of measure
+
+far away => distance
+attribute distance
+how hot => temperature; also use hot to query
+how far => distance
+how far is the marathon; also use distance to query
+how many * => lookup * ,e.g. how many liters of blood are there in a human?
+
+written communication is too generic for BOOKS => it includes scripts.. such as Aramaic et cetera
+
+NUMERIC:
+	* Unidades
+	* Expressões
+e.g. distance
+	* Meters, yards
+	* tall, long, wide, height, width
+	
+DESCRIPTION:REASON (WHY FAMOUS)
+# S: (n) purpose, intent, intention, aim, design (an anticipated outcome that is intended or that guides your planned actions) "his intent was to provide a new translation"; "good intentions are not enough"; "it was created with the conscious aim of answering immediate needs"; "he made no secret of his designs"
+# S: (v) cause, do, make (give rise to; cause to happen or occur, not always intentionally) "cause a commotion"; "make a stir"; "cause an accident"
+	# S: (v) motivate, actuate, propel, move, prompt, incite (give an incentive for action) "This moved me to sacrifice my career"
+# What is * known for, used for; What prompted/motivated/caused *
+Example questions:
+	What is the purpose of a car bra ?
+	
+	
+ENTITY:WEAPON !!	
+	
+DO NOT EXTRACT (???) IF WH IS:
+	WHY, WHERE, WHO, WHOSE
+	
+culture,civilization
+
+worth => derivationally related => best => follow hypernym ?
+
+
+LOCATION:CITY
+[Synset: [Offset: 8675967] [POS: noun] Words: urban_area, populated_area -- (a geographical area constituting a city or town)]
+LOCATION:COUNTRY
+[Synset: [Offset: 8168978] [POS: noun] Words: state, nation, country, land, commonwealth, res_publica, body_politic -- (a politically organized body of people under a single government; "the state has elected a new president"; "African nations"; "students who had come to the nation's capitol"; "the country's largest manufacturer"; "an industrialized land")]
+[Synset: [Offset: 8544813] [POS: noun] Words: country, state, land -- (the territory occupied by a nation; "he returned to the land of his birth"; "he visited several European countries")]
+LOCATION:OTHER
+[Synset: [Offset: 27167] [POS: noun] Words: location -- (a point or extent in space)]
+[Synset: [Offset: 9334396] [POS: noun] Words: land, dry_land, earth, ground, solid_ground, terra_firma -- (the solid part of the earth's surface; "the plane turned away from the sea and moved back over land"; "the earth shook for several minutes"; "he dropped the logs on the ground")]
+[Synset: [Offset: 9225146] [POS: noun] Words: body_of_water, water -- (the part of the earth's surface covered with water (such as a river or lake or ocean); "they invaded our territorial waters"; "they were sitting by the water's edge")]
+[Synset: [Offset: 9239740] [POS: noun] Words: celestial_body, heavenly_body -- (natural objects visible in the sky)]
+LOCATION:MOUNTAIN
+[Synset: [Offset: 9359803] [POS: noun] Words: mountain, mount -- (a land mass that projects well above its surroundings; higher than a hill)]
+[Synset: [Offset: 9470550] [POS: noun] Words: vent, volcano -- (a fissure in the earth's crust (or in the surface of some other planet) through which molten lava and gases erupt)]
+[Synset: [Offset: 9403734] [POS: noun] Words: range, mountain_range, range_of_mountains, chain, mountain_chain, chain_of_mountains -- (a series of hills or mountains; "the valley was between two ranges of hills"; "the plains lay just beyond the mountain range")]
+LOCATION:STATE
+[Synset: [Offset: 8654360] [POS: noun] Words: state, province -- (the territory occupied by one of the constituent administrative districts of a nation; "his state is in the deep south")]
+
+ABBREVIATION:ABBREVIATION
+[Synset: [Offset: 7091587] [POS: noun] Words: abbreviation -- (a shortened form of a word or phrase)]
+[Synset: [Offset: 7091902] [POS: noun] Words: acronym -- (a word formed from the initial letters of the several words in the name)]
+ABBREVIATION:EXPANSION
+> TODO
+
+DESCRIPTION:DEFINITION
+[Synset: [Offset: 6601327] [POS: noun] Words: meaning, significance, signification, import -- (the message that is intended or expressed or signified; "what is the meaning of this sentence"; "the significance of a red traffic light"; "the signification of Chinese characters"; "the import of his announcement was ambiguous")]
+[Synset: [Offset: 5919866] [POS: noun] Words: meaning, substance -- (the idea that is intended; "What is the meaning of this proverb?")]
+[Synset: [Offset: 6744396] [POS: noun] Words: definition -- (a concise explanation of the meaning of a word or phrase or symbol)]
+[Synset: [Offset: 957378] [POS: verb] Words: define -- (give a definition for the meaning of a word; "Define `sadness'")]
+DESCRIPTION:DESCRIPTION
+[Synset: [Offset: 13559177] [POS: noun] Words: origin -- (the source of something's existence or from which it derives or is derived; "the rumor had its origin in idle gossip"; "vegetable origins"; "mineral origin"; "origin in sensation")]	
+[Synset: [Offset: 4748836] [POS: noun] Words: difference -- (the quality of being unlike or dissimilar; "there are many differences between jazz and rock")]
+[Synset: [Offset: 987071] [POS: verb] Words: describe, depict, draw -- (give a description of; "He drew an elaborate plan of attack")]	
+DESCRIPTION:MANNER
+DESCRIPTION:REASON	
+[Synset: [Offset: 9178999] [POS: noun] Words: reason, ground -- (a rational motive for a belief or action; "the reason that war was declared"; "the grounds for their declaration")]
+
+ENTITY:ANIMAL
+[Synset: [Offset: 15388] [POS: noun] Words: animal, animate_being, beast, brute, creature, fauna -- (a living organism characterized by voluntary movement)]
+[Synset: [Offset: 7993929] [POS: noun] Words: animal_group -- (a group of animals)]
+ENTITY:BODY-PART
+[Synset: [Offset: 5220461] [POS: noun] Words: body_part -- (any part of an organism such as an organ or extremity)]
+ENTITY:COLOR
+[Synset: [Offset: 4956594] [POS: noun] Words: color, colour, coloring, colouring -- (a visual attribute of things that results from the light they emit or transmit or reflect; "a white color is made up of many different wavelengths of light")]
+ENTITY:CREATIVE
+[Synset: [Offset: 6619065] [POS: noun] Words: show -- (a social event involving a public performance or entertainment; "they wanted to see some of the shows on Broadway")]
+[Synset: [Offset: 7020895] [POS: noun] Words: music -- (an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner)]
+[Synset: [Offset: 6410904] [POS: noun] Words: book -- (a written work or composition that has been published (printed on pages bound together); "I am reading a good book on economics")]
+[Synset: [Offset: 6362953] [POS: noun] Words: writing, written_material, piece_of_writing -- (the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect); "the writing in her novels is excellent"; "that editorial was a fine piece of writing")]
+[Synset: [Offset: 3038595] [POS: noun] Words: classic -- (a creation of the highest excellence)]
+[Synset: [Offset: 2743547] [POS: noun] Words: art, fine_art -- (the products of human creativity; works of art collectively; "an art exhibition"; "a fine collection of art")]
+[Synset: [Offset: 6254669] [POS: noun] Words: medium -- (a means or instrumentality for storing or communicating information)]
+ENTITY:CURRENCY
+[Synset: [Offset: 13385913] [POS: noun] Words: currency -- (the metal or paper medium of exchange that is presently used)]
+ENTITY:MEDICAL-DISEASE
+[Synset: [Offset: 14299637] [POS: noun] Words: symptom -- ((medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease)]
+[Synset: [Offset: 3247620] [POS: noun] Words: drug -- (a substance that is used as a medicine or narcotic)]
+[Synset: [Offset: 657604] [POS: noun] Words: medical_care, medical_aid -- (professional treatment for illness or injury)]
+[Synset: [Offset: 14034177] [POS: noun] Words: physical_condition, physiological_state, physiological_condition -- (the condition or state of the body or bodily functions)]
+ENTITY:EVENT		
+[Synset: [Offset: 29378] [POS: noun] Words: event -- (something that happens at a given place and time)]
+ENTITY:FOOD		
+[Synset: [Offset: 21265] [POS: noun] Words: food, nutrient -- (any substance that can be metabolized by an animal to give energy and build tissue)]
+[Synset: [Offset: 7555863] [POS: noun] Words: food, solid_food -- (any solid substance (as opposed to liquid) that is used as a source of nourishment; "food and drink")]
+[Synset: [Offset: 13134947] [POS: noun] Words: fruit -- (the ripened reproductive body of a seed plant)]
+[Synset: [Offset: 7578363] [POS: noun] Words: helping, portion, serving -- (an individual quantity of food or drink taken as part of a meal; "the helpings were all small"; "his portion was larger than hers"; "there's enough for two servings each")]
+ENTITY:INSTRUMENT
+[Synset: [Offset: 3800933] [POS: noun] Words: musical_instrument, instrument -- (any of various devices or contrivances that can be used to produce musical tones or sounds)]
+ENTITY:LANGUAGE
+[Synset: [Offset: 6282651] [POS: noun] Words: language, linguistic_communication -- (a systematic means of communicating by the use of sounds or conventional symbols; "he taught foreign languages"; "the language introduced is standard throughout the text"; "the speed with which a program can be executed depends on the language in which it is written")]
+[Synset: [Offset: 7155661] [POS: noun] Words: dialect, idiom, accent -- (the usage or vocabulary that is characteristic of a specific group of people; "the immigrants spoke an odd dialect of English"; "he has a strong German accent"; "it has been said that a language is a dialect with an army and navy")]
+ENTITY:LETTER
+[Synset: [Offset: 6828818] [POS: noun] Words: letter, letter_of_the_alphabet, alphabetic_character -- (the conventional characters of the alphabet used to represent speech; "his grandmother taught him his letters")]
+[Synset: [Offset: 6497459] [POS: noun] Words: alphabet -- (a character set that includes letters and is used to write a language)]
+[Synset: [Offset: 6488880] [POS: noun] Words: character_set -- (an ordered list of characters that are used together in writing or printing)]
+ENTITY:PLANT
+[Synset: [Offset: 8436759] [POS: noun] Words: vegetation, flora, botany -- (all the plant life in a particular region or period; "Pleistocene vegetation"; "the flora of southern California"; "the botany of China")]
+[Synset: [Offset: 17222] [POS: noun] Words: plant, flora, plant_life -- ((botany) a living organism lacking the power of locomotion)]
+ENTITY:PRODUCT
+[Synset: [Offset: 6845599] [POS: noun] Words: trade_name, brand_name, brand, marque -- (a name given to a product or service)]
+[Synset: [Offset: 3748886] [POS: noun] Words: merchandise, ware, product -- (commodities offered for sale; "good business depends on having good merchandise"; "that store offers a variety of products")]
+ENTITY:RELIGION
+[Synset: [Offset: 5946687] [POS: noun] Words: religion, faith, religious_belief -- (a strong belief in a supernatural power or powers that control human destiny; "he lost his faith but not his morality")]
+ENTITY:SPORT
+[Synset: [Offset: 523513] [POS: noun] Words: sport, athletics -- (an active diversion requiring physical exertion and competition)]
+[Synset: [Offset: 455599] [POS: noun] Words: game -- (a contest with rules to determine a winner; "you need four people to play this game")]
+[Synset: [Offset: 430606] [POS: noun] Words: game -- (an amusement or pastime; "they played word games"; "he thought of his painting as a game that filled his empty time"; "his life was all fun and games")]
+[Synset: [Offset: 624738] [POS: noun] Words: exercise, exercising, physical_exercise, physical_exertion, workout -- (the activity of exerting your muscles in various ways to keep fit; "the doctor recommended regular exercise"; "he did some exercising"; "the physical exertion required by his work kept him fit")]
+ENTITY:SUBSTANCE
+[Synset: [Offset: 19613] [POS: noun] Words: substance -- (the real physical matter of which a person or thing consists; "DNA is the substance of our genes")]
+ENTITY:SYMBOL
+[Synset: [Offset: 6806469] [POS: noun] Words: symbol -- (an arbitrary sign (written or printed) that has acquired a conventional significance)]
+ENTITY:TECHNIQUE-METHOD
+[Synset: [Offset: 5665146] [POS: noun] Words: technique -- (a practical method or art applied to some particular task)]
+[Synset: [Offset: 941140] [POS: noun] Words: approach, attack, plan_of_attack -- (ideas or actions intended to deal with a problem or situation; "his approach to every problem is to draw up a list of pros and cons"; "an attack on inflation"; "his plan of attack was misguided")]
+[Synset: [Offset: 4928903] [POS: noun] Words: manner, mode, style, way, fashion -- (how something is done or how it happens; "her dignified manner"; "his rapid manner of talking"; "their nomadic mode of existence"; "in the characteristic New York style"; "a lonely way of life"; "in an abrasive fashion")]
+[Synset: [Offset: 5660268] [POS: noun] Words: method -- (a way of doing something, especially a systematic way; implies an orderly logical arrangement (usually in steps))]~
+[Synset: [Offset: 1023820] [POS: noun] Words: procedure, process -- (a particular course of action intended to achieve a result; "the procedure of obtaining a driver's license"; "it was a process of trial and error")]
+ENTITY:TERM
+[Synset: [Offset: 6303888] [POS: noun] Words: term -- (a word or expression used for some particular thing; "he learned many medical terms")]
+ENTITY:VEHICLE
+[Synset: [Offset: 4524313] [POS: noun] Words: vehicle -- (a conveyance that transports people or objects)]
+ENTITY:WORD
+[Synset: [Offset: 6286395] [POS: noun] Words: word -- (a unit of language that native speakers can identify; "words are the blocks from which sentences are made"; "he hardly said ten words all morning")]
+
+
+HUMAN:DESCRIPTION
+> Pattern based
+HUMAN:GROUP
+[Synset: [Offset: 8008335] [POS: noun] Words: organization, organisation -- (a group of people who work together)]
+[Synset: [Offset: 31264] [POS: noun] Words: group, grouping -- (any number of entities (members) considered as a unit)]
+HUMAN:INDIVIDUAL
+[Synset: [Offset: 7846] [POS: noun] Words: person, individual, someone, somebody, mortal, soul -- (a human being; "there was too much for one person to do")]
+[Synset: [Offset: 2472293] [POS: noun] Words: homo, man, human_being, human -- (any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage)]
+[Synset: [Offset: 6333653] [POS: noun] Words: name -- (a language unit by which a person or thing is known; "his name really is George Washington"; "those are two names for the same thing")]
+[Synset: [Offset: 9504135] [POS: noun] Words: spiritual_being, supernatural_being -- (an incorporeal being believed to have powers to affect the course of human events)]
+[Synset: [Offset: 10636598] [POS: noun] Words: spirit -- (the vital principle or animating force within living things)]
+HUMAN:TITLE
+[Synset: [Offset: 8112096] [POS: noun] Words: profession -- (the body of people in a learned occupation; "the news spread rapidly through the medical profession"; "they formed a community of scientists")]
+[Synset: [Offset: 6339416] [POS: noun] Words: title, title_of_respect, form_of_address -- (an identifying appellation signifying status or function: e.g. `Mr.' or `General'; "the professor didn't like his friends to use his formal title")]
+[Synset: [Offset: 582388] [POS: noun] Words: occupation, business, job, line_of_work, line -- (the principal activity in your life that you do to earn money; "he's not in my line of business")]
+NUMERIC:CODE
+[Synset: [Offset: 6353934] [POS: noun] Words: code -- (a coding system used for transmitting messages requiring brevity or secrecy)]
+[Synset: [Offset: 6426111] [POS: noun] Words: phone_number, telephone_number, number -- (the number is used in calling a particular telephone; "he has an unlisted number")]
+NUMERIC:COUNT
+[Synset: [Offset: 13582013] [POS: noun] Words: number -- (a concept of quantity involving zero and units; "every number has a unique position in the sequence")]
+NUMERIC:DATE
+[Synset: [Offset: 15159583] [POS: noun] Words: date, day_of_the_month -- (the specified day of the month; "what is the date today?")]
+NUMERIC:DISTANCE
+[Synset: [Offset: 5084201] [POS: noun] Words: distance -- (the property created by the space between two objects or points)]
+[Synset: [Offset: 5129565] [POS: noun] Words: distance, length -- (size of the gap between two places; "the distance from New York to Chicago"; "he determined the length of the shortest line segment joining the two points")]
+[Synset: [Offset: 5002352] [POS: noun] Words: stature, height -- ((of a standing person) the distance from head to foot)]
+[Synset: [Offset: 5093581] [POS: noun] Words: dimension -- (the magnitude of something in a particular direction (especially length or width or height))]
+[Synset: [Offset: 13603305] [POS: noun] Words: linear_unit, linear_measure -- (a unit of measurement of length)]
+[Synset: [Offset: 5134547] [POS: noun] Words: depth, deepness -- (the extent downward or backward or inward; "the depth of the water"; "depth of a shelf"; "depth of a closet")]
+NUMERIC:MONEY
+[Synset: [Offset: 13275288] [POS: noun] Words: outgo, spending, expenditure, outlay -- (money paid out; an amount spent)]
+[Synset: [Offset: 13384557] [POS: noun] Words: money -- (the most common medium of exchange; functions as legal tender; "we tried to collect the money he owed us")]
+[Synset: [Offset: 5145118] [POS: noun] Words: monetary_value, price, cost -- (the property of having material worth (often indicated by the amount of money something would bring if sold); "the fluctuating monetary value of gold and silver"; "he puts a high price on his services"; "he couldn't calculate the cost of the collection")]
+[Synset: [Offset: 13303315] [POS: noun] Words: price, terms, damage -- (the amount of money needed to purchase something; "the price of gasoline"; "he got his new car on excellent terms"; "how much is the damage?")]
+[Synset: [Offset: 13331198] [POS: noun] Words: sum, sum_of_money, amount, amount_of_money -- (a quantity of money; "he borrowed a large sum"; "the amount he had in cash was insufficient")]
+[Synset: [Offset: 13604718] [POS: noun] Words: monetary_unit -- (a unit of money)]
+NUMERIC:OTHER
+[Synset: [Offset: 33615] [POS: noun] Words: measure, quantity, amount -- (how much there is or how many there are of something that you can quantify)]
+NUMERIC:PERCENTAGE/RATIO
+[Synset: [Offset: 13815152] [POS: noun] Words: magnitude_relation, quantitative_relation -- (a relation between magnitudes)]
+[Synset: [Offset: 4756172] [POS: noun] Words: probability -- (the quality of being probable; a probable event or the most probable event; "for a while mutiny seemed a probability"; "going by past experience there was a high probability that the visitors were lost")]
+[Synset: [Offset: 5091770] [POS: noun] Words: probability, chance -- (a measure of how likely it is that some event will occur; a number expressing the ratio of favorable cases to the whole number of cases possible; "the probability that an unbiased coin will fall with the head up is 0.5")]
+NUMERIC:PERIOD
+[Synset: [Offset: 15113229] [POS: noun] Words: time_period, period_of_time, period -- (an amount of time; "a time period of 30 years"; "hastened the period of time of his recovery"; "Picasso's blue period")]
+[Synset: [Offset: 4924103] [POS: noun] Words: age -- (how long something has existed; "it was replaced because of its age")]
+[Synset: [Offset: 7309599] [POS: noun] Words: time, clip -- (an instance or single occasion for some event; "this time he succeeded"; "he called four times"; "he could do ten at a clip")]	
+[Synset: [Offset: 15142025] [POS: noun] Words: life_expectancy -- (an expected time to live as calculated on the basis of statistical probabilities)]
+NUMERIC:SPEED
+[Synset: [Offset: 15282696] [POS: noun] Words: speed, velocity -- (distance travelled per unit time)]
+[Synset: [Offset: 5058140] [POS: noun] Words: speed, swiftness, fastness -- (a rate (usually rapid) at which something happens; "the project advanced with gratifying speed")]
+NUMERIC:TEMPERATURE
+[Synset: [Offset: 5011790] [POS: noun] Words: temperature -- (the degree of hotness or coldness of a body or environment (corresponding to its molecular activity))]
+[Synset: [Offset: 13608598] [POS: noun] Words: temperature_unit -- (a unit of measurement for temperature)]
+NUMERIC:VOLSIZE
+[Synset: [Offset: 5098942] [POS: noun] Words: size -- (the physical magnitude of something (how big it is); "a wolf is about the size of a large dog")]	
+[Synset: [Offset: 13779032] [POS: noun] Words: volume -- (the amount of 3-dimensional space occupied by an object; "the gas expanded to twice its original volume")]
+[Synset: [Offset: 5128519] [POS: noun] Words: area, expanse, surface_area -- (the extent of a 2-dimensional surface enclosed within a boundary; "the area of a rectangle"; "it was about 500 square feet in area")]
+[Synset: [Offset: 13600404] [POS: noun] Words: area_unit, square_measure -- (a system of units used to measure areas)]	
+[Synset: [Offset: 13600822] [POS: noun] Words: volume_unit, capacity_unit, capacity_measure, cubage_unit, cubic_measure, cubic_content_unit, displacement_unit, cubature_unit -- (a unit of measurement of volume or capacity)]
+NUMERIC:WEIGHT
+[Synset: [Offset: 5026843] [POS: noun] Words: weight -- (the vertical force exerted by a mass as a result of gravity)]
+[Synset: [Offset: 13609214] [POS: noun] Words: mass_unit -- (a unit of measurement for mass)]
+[Synset: [Offset: 13608788] [POS: noun] Words: weight_unit, weight -- (a unit used to measure weight; "he placed two weights in the scale pan")]
+[Synset: [Offset: 5024254] [POS: noun] Words: mass -- (the property of a body that causes it to have weight in a gravitational field)]
+[Synset: [Offset: 2704818] [POS: verb] Words: weigh -- (have a certain weight)]

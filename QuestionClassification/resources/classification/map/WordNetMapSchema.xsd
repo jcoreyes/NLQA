@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="CategoryType">
+    	<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+    		<xsd:element name="target" type="TargetType" minOccurs="0" maxOccurs="unbounded">
+    		</xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>    
+    <xsd:complexType name="TargetType">
+    	<xsd:attribute name="offset" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="POS" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="words" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="MapType">
+    	<xsd:sequence>
+    		<xsd:element name="category" type="CategoryType" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="wn-version" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:element name="map" type="MapType"></xsd:element>
+</xsd:schema>

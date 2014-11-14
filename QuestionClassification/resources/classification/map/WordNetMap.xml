@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map wn-version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WordNetMapSchema.xsd">
+	<!-- ABBREVIATION -->
+	<category name="ABBREVIATION_ABBREVIATION">
+		<target offset="7091587" POS="noun" words="abbreviation -- (a shortened form of a word or phrase)"/>
+		<target offset="7091902" POS="noun" words="acronym -- (a word formed from the initial letters of the several words in the name)"/>
+	</category>
+	<category name="ABBREVIATION_EXPANSION" />
+	<!-- DESCRIPTION -->
+	<category name="DESCRIPTION_DEFINITION">
+		<target offset="6601327" POS="noun" words="meaning, significance, signification, import -- (the message that is intended or expressed or signified)" />
+		<target offset="5919866" POS="noun" words="meaning, substance -- (the idea that is intended)" />
+		<target offset="6744396" POS="noun" words="definition -- (a concise explanation of the meaning of a word or phrase or symbol)" />
+		<target offset="957378" POS="verb" words="define -- (give a definition for the meaning of a word)" />
+	</category>
+	<category name="DESCRIPTION_DESCRIPTION">
+		<target offset="13559177" POS="noun" words="origin -- (the source of something's existence or from which it derives or is derived)" />
+		<target offset="4748836" POS="noun" words="difference -- (the quality of being unlike or dissimilar)" />
+		<target offset="987071" POS="noun" words="describe, depict, draw -- (give a description of)" />
+	</category>
+	<category name="DESCRIPTION_MANNER" />
+	<category name="DESCRIPTION_REASON">
+		<target offset="9178999" POS="noun" words="reason, ground -- (a rational motive for a belief or action)" />
+		<target offset="7326557" POS="noun" words="cause -- (events that provide the generative force that is the origin of something)" />
+	</category>
+	<!-- ENTITY -->
+	<category name="ENTITY_ANIMAL">
+		<target offset="15388" POS="noun" words="animal, animate_being, beast, brute, creature, fauna -- (a living organism characterized by voluntary movement)" />
+		<target offset="7993929" POS="noun" words="animal_group -- (a group of animals)"/>
+	</category>
+	<category name="ENTITY_BODY">
+		<target offset="5220461" POS="noun" words="body_part -- (any part of an organism such as an organ or extremity)" />
+	</category>
+	<category name="ENTITY_COLOR">
+		<target offset="4956594" POS="noun" words="color, colour, coloring, colouring -- (a visual attribute of things that results from the light they emit or transmit or reflect)" />
+	</category>	
+	<category name="ENTITY_CREATIVE">
+		<target offset="6619065" POS="noun" words="show -- (a social event involving a public performance or entertainment)" />
+		<target offset="7020895" POS="noun" words="music -- (an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner)" />
+		<target offset="6410904" POS="noun" words="book -- (a written work or composition that has been published (printed on pages bound together))" />
+		<target offset="6362953" POS="noun" words="writing, written_material, piece_of_writing -- (the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect))" /> 
+		<target offset="3038595" POS="noun" words="classic -- (a creation of the highest excellence)" /> 
+		<target offset="2743547" POS="noun" words="art, fine_art -- (the products of human creativity; works of art collectively)" /> 
+		<target offset="6254669" POS="noun" words="medium -- (a means or instrumentality for storing or communicating information)" /> 
+		<target offset="7985825" POS="noun" words="trilogy -- (a set of three literary or dramatic works related in subject or theme)" />
+		<target offset="6399503" POS="noun" words="sequel, continuation -- (a part added to a book or play that continues and extends it)" />
+	</category>
+	<category name="ENTITY_CURRENCY">
+		<target offset="13385913" POS="noun" words="currency -- (the metal or paper medium of exchange that is presently used)" />
+	</category>
+	<category name="ENTITY_MEDICINE">
+<!--  ADD MEDICINE -->
+		<target offset="14299637" POS="noun" words="symptom -- ((medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease)" />
+		<target offset="3247620" POS="noun" words="drug -- (a substance that is used as a medicine or narcotic)" />
+		<target offset="657604" POS="noun" words="medical_care, medical_aid -- (professional treatment for illness or injury)" />
+		<target offset="14034177" POS="noun" words="physical_condition, physiological_state, physiological_condition -- (the condition or state of the body or bodily functions)" />
+	</category>
+	<category name="ENTITY_EVENT">
+		<target offset="29378" POS="noun" words="event -- (something that happens at a given place and time)" />
+		<target offset="8307589" POS="noun" words="meeting, group_meeting -- (a formally arranged gathering)" />
+	</category>
+	<category name="ENTITY_FOOD">
+		<target offset="21265" POS="noun" words="food, nutrient -- (any substance that can be metabolized by an animal to give energy and build tissue)" />
+		<target offset="7555863" POS="noun" words="food, solid_food -- (any solid substance (as opposed to liquid) that is used as a source of nourishment)" />
+		<target offset="13134947" POS="noun" words="fruit -- (the ripened reproductive body of a seed plant)"/>
+		<target offset="7578363" POS="noun" words="helping, portion, serving -- (an individual quantity of food or drink taken as part of a meal)" />		
+	</category>	
+	<category name="ENTITY_INSTRUMENT">
+		<target offset="3800933" POS="noun" words="musical_instrument, instrument -- (any of various devices or contrivances that can be used to produce musical tones or sounds)" />
+	</category>
+	<category name="ENTITY_LANGUAGE">
+		<target offset="6282651" POS="noun" words="language, linguistic_communication -- (a systematic means of communicating by the use of sounds or conventional symbols)"/>
+		<target offset="7155661" POS="noun" words="dialect, idiom, accent -- (the usage or vocabulary that is characteristic of a specific group of people)"/>
+	</category>
+	<category name="ENTITY_LETTER">
+		<target offset="6828818" POS="noun" words="letter, letter_of_the_alphabet, alphabetic_character -- (the conventional characters of the alphabet used to represent speech)"/>
+		<target offset="6488880" POS="noun" words="character_set -- (an ordered list of characters that are used together in writing or printing)"/>		
+	</category>	
+	<category name="ENTITY_PLANT">
+		<target offset="17222" POS="noun" words="plant, flora, plant_life -- ((botany) a living organism lacking the power of locomotion)"/>
+		<target offset="8436759" POS="noun" words="vegetation, flora, botany -- (all the plant life in a particular region or period)"/>
+	</category>
+	<category name="ENTITY_PRODUCT">
+		<target offset="6845599" POS="noun" words="trade_name, brand_name, brand, marque -- (a name given to a product or service)" />
+		<target offset="3748886" POS="noun" words="merchandise, ware, product -- (commodities offered for sale)" />
+	</category>	
+	<category name="ENTITY_RELIGION">
+		<target offset="5946687" POS="noun" words="religion, faith, religious_belief -- (a strong belief in a supernatural power or powers that control human destiny)"/>
+		<target offset="8151490" POS="noun" words="cult -- (followers of an exclusive system of religious beliefs and practices)"/>
+		<target offset="5948264" POS="noun" words="ult, cultus, religious_cult -- (a system of religious beliefs and rituals)"/>
+	</category>
+	<category name="ENTITY_SPORT">
+		<target offset="523513" POS="noun" words="sport, athletics -- (an active diversion requiring physical exertion and competition)"/>
+		<target offset="455599" POS="noun" words="game -- (a contest with rules to determine a winner)"/>
+		<target offset="430606" POS="noun" words="game -- (an amusement or pastime)"/>
+		<target offset="624738" POS="noun" words="exercise, exercising, physical_exercise, physical_exertion, workout -- (the activity of exerting your muscles in various ways to keep fit)"/>
+	</category>
+	<category name="ENTITY_SUBSTANCE">
+		<target offset="19613" POS="noun" words="substance -- (the real physical matter of which a person or thing consists)"/>
+	</category>
+	<category name="ENTITY_SYMBOL">
+		<target offset="6806469" POS="noun" words="symbol -- (an arbitrary sign (written or printed) that has acquired a conventional significance)" />
+	</category>
+	<category name="ENTITY_TECHNIQUE">
+		<target offset="5665146" POS="noun" words="technique -- (a practical method or art applied to some particular task)" />
+		<target offset="941140" POS="noun" words="approach, attack, plan_of_attack -- (ideas or actions intended to deal with a problem or situation)" />	
+		<target offset="4928903" POS="noun" words="manner, mode, style, way, fashion -- (how something is done or how it happens)" />	
+		<target offset="5660268" POS="noun" words="method -- (a way of doing something, especially a systematic way)" />	
+		<target offset="1023820" POS="noun" words="procedure, process -- (a particular course of action intended to achieve a result)" />	
+		<target offset="5902545" POS="noun" words="plan_of_action -- (a plan for actively doing something)" />		
+	</category>
+	<category name="ENTITY_TERM">
+		<target offset="6303888" POS="noun" words="term -- (a word or expression used for some particular thing)" />
+	</category>
+	<category name="ENTITY_VEHICLE">
+		<target offset="4524313" POS="noun" words="vehicle -- (a conveyance that transports people or objects)" />
+	</category>
+	<category name="ENTITY_WORD">
+		<target offset="6286395" POS="noun" words="word -- (a unit of language that native speakers can identify)" />
+	</category>
+	<category name="ENTITY_OTHER">
+	<!-- TODO: ??????? ENTITY?????????????????????????????????????????????????  attire => artifact, maybe we should test every head that maps to nowhere ?  -->
+	</category>
+	<!-- HUMAN -->
+	<category name="HUMAN_DESCRIPTION" />
+	<category name="HUMAN_GROUP">
+		<target offset="8008335" POS="noun" words="organization, organisation -- (a group of people who work together)" />
+		<target offset="31264" POS="noun" words="group, grouping -- (any number of entities (members) considered as a unit)" />
+		<target offset="8244062" POS="noun" words="gang, pack, ring, mob -- (an association of criminals)" />
+	</category>
+	<category name="HUMAN_INDIVIDUAL">
+		<target offset="7846" POS="noun" words="person, individual, someone, somebody, mortal, soul -- (a human being)" />
+		<target offset="2472293" POS="noun" words="homo, man, human_being, human -- (any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage)"/>
+		<target offset="6333653" POS="noun" words="name -- (a language unit by which a person or thing is known)" />
+		<target offset="9504135" POS="noun" words="spiritual_being, supernatural_being -- (an incorporeal being believed to have powers to affect the course of human events)" />
+		<target offset="10636598" POS="noun" words="spirit -- (the vital principle or animating force within living things)"/>		
+	</category>	
+	<category name="HUMAN_TITLE">
+		<target offset="8112096" POS="noun" words="profession -- (the body of people in a learned occupation)" />
+		<target offset="6339416" POS="noun" words="title, title_of_respect, form_of_address -- (an identifying appellation signifying status or function: e.g. `Mr.' or `General')" />
+		<target offset="582388" POS="noun" words="occupation, business, job, line_of_work, line -- (the principal activity in your life that you do to earn money)" />
+	</category>
+	<!-- LOCATION -->
+	<category name="LOCATION_CITY">
+		<target offset="8675967" POS="noun" words="urban_area, populated_area -- (a geographical area constituting a city or town)"/>
+	</category>
+	<category name="LOCATION_COUNTRY">
+		<target offset="8168978" POS="noun" words="state, nation, country, land, commonwealth, res_publica, body_politic -- (a politically organized body of people under a single government)"/>
+		<target offset="8544813" POS="noun" words="country, state, land -- (the territory occupied by a nation)"/>
+	</category>
+	<category name="LOCATION_MOUNTAIN">
+		<target offset="9359803" POS="noun" words="mountain, mount -- (a land mass that projects well above its surroundings)"/>
+		<target offset="9470550" POS="noun" words="vent, volcano -- (a fissure in the earth's crust (or in the surface of some other planet) through which molten lava and gases erupt)"/>
+		<target offset="9403734" POS="noun" words="range, mountain_range, range_of_mountains, chain, mountain_chain, chain_of_mountains -- (a series of hills or mountains)"/>			
+		<!-- TODO: maybe generalize to geological formation -->
+	</category>
+	<category name="LOCATION_STATE">
+		<target offset="8654360" POS="noun" words="state, province -- (the territory occupied by one of the constituent administrative districts of a nation)"/>
+	</category>
+	<category name="LOCATION_OTHER">
+		<target offset="27167" POS="noun" words="location -- (a point or extent in space)"/>
+		<target offset="9334396" POS="noun" words="land, dry_land, earth, ground, solid_ground, terra_firma -- (the solid part of the earth's surface)"/>
+		<target offset="9225146" POS="noun" words="body_of_water, water -- (the part of the earth's surface covered with water (such as a river or lake or ocean)"/>
+		<target offset="9239740" POS="noun" words="celestial_body, heavenly_body -- (natural objects visible in the sky)"/> 
+		<target offset="8505573" POS="noun" words="desert -- (arid land with little or no vegetation)"/> 
+	
+	</category>	
+	<!-- NUMERIC -->	
+	<category name="NUMERIC_CODE">
+		<target offset="6426111" POS="noun" words="phone_number, telephone_number, number -- (the number is used in calling a particular telephone)" />
+		<target offset="6353934" POS="noun" words="code -- (a coding system used for transmitting messages requiring brevity or secrecy)" />
+	</category>
+	<category name="NUMERIC_COUNT">
+		<target offset="13582013" POS="noun" words="number -- (a concept of quantity derived from zero and units)" />
+	</category>
+	<category name="NUMERIC_DATE">
+		<target offset="15155220" POS="noun" words="day, twenty-four_hours, twenty-four_hour_period, 24-hour_interval, solar_day, mean_solar_day)" />
+		<target offset="15159583" POS="noun" words="date, day_of_the_month -- (the specified day of the month)" />
+		<target offset="15203791" POS="noun" words="year, twelvemonth, yr - (a period of time containing 365 (or 366) days" />
+		<target offset="15209413" POS="noun" words="calendar_month, month - (one of the twelve divisions of the calendar year)" />
+	</category>
+	<category name="NUMERIC_DISTANCE">
+		<target offset="5084201" POS="noun" words="distance -- (the property created by the space between two objects or points)" />
+		<target offset="5002352" POS="noun" words="stature, height -- ((of a standing person) the distance from head to foot)" />
+		<target offset="5093581" POS="noun" words="dimension -- (the magnitude of something in a particular direction (especially length or width or height))" />
+		<target offset="13603305" POS="noun" words="linear_unit, linear_measure -- (a unit of measurement of length)" />
+		<target offset="5129565" POS="noun" words="distance, length -- (size of the gap between two places)" />
+		<target offset="5134547" POS="noun" words="depth, deepness -- (the extent downward or backward or inward)" />
+	</category>
+	<category name="NUMERIC_MONEY">
+		<target offset="13275288" POS="noun" words="outgo, spending, expenditure, outlay -- (money paid out; an amount spent)" />
+		<target offset="13384557" POS="noun" words="money -- (the most common medium of exchange; functions as legal tender)" />
+		<target offset="5145118" POS="noun" words="monetary_value, price, cost -- (the property of having material worth (often indicated by the amount of money something would bring if sold))" />
+		<target offset="13303315" POS="noun" words="price, terms, damage -- (the amount of money needed to purchase something)" />
+		<target offset="13331198" POS="noun" words="sum, sum_of_money, amount, amount_of_money -- (a quantity of money)" />
+		<target offset="13604718" POS="noun" words="monetary_unit -- (a unit of money)" />		
+	</category>
+	<category name="NUMERIC_ORDER" />
+	<category name="NUMERIC_OTHER">
+		<target offset="33615" POS="noun" words="measure, quantity, amount -- (how much there is or how many there are of something that you can quantify)" />
+	</category>
+	<category name="NUMERIC_PERCENT">
+		<target offset="13815152" POS="noun" words="magnitude_relation, quantitative_relation -- (a relation between magnitudes)" />
+		<target offset="4756172" POS="noun" words="probability -- (the quality of being probable)" />
+		<target offset="5091770" POS="noun" words="probability, chance -- (a measure of how likely it is that some event will occur)" />
+	</category>	
+	<category name="NUMERIC_PERIOD">
+		<target offset="15113229" POS="noun" words="time_period, period_of_time, period -- (an amount of time)" />
+		<target offset="15154774" POS="noun" words="time_unit, unit_of_time -- (a unit for measuring time periods)" />
+		<target offset="4924103" POS="noun" words="age -- (how long something has existed)" />
+		<target offset="7309599" POS="noun" words="time, clip -- (an instance or single occasion for some event)" />
+		<target offset="15142025" POS="noun" words="life_expectancy -- (an expected time to live as calculated on the basis of statistical probabilities)" />
+	</category>
+	<category name="NUMERIC_SPEED">
+		<target offset="15282696" POS="noun" words="speed, velocity -- (distance travelled per unit time)" />
+		<target offset="5058140" POS="noun" words="speed, swiftness, fastness -- (a rate (usually rapid) at which something happens)" />
+	</category>
+	<category name="NUMERIC_TEMPERATURE">
+		<target offset="5011790" POS="noun" words="temperature -- (the degree of hotness or coldness of a body or environment (corresponding to its molecular activity))" />
+		<target offset="13608598" POS="noun" words="temperature_unit -- (a unit of measurement for temperature)" />
+	</category>
+	<category name="NUMERIC_SIZE">
+		<target offset="5098942" POS="noun" words="size -- (the physical magnitude of something (how big it is))" />
+		<target offset="13779032" POS="noun" words="volume -- (the amount of 3-dimensional space occupied by an object)" />
+		<target offset="5128519" POS="noun" words="area, expanse, surface_area -- (the extent of a 2-dimensional surface enclosed within a boundary)" />
+		<target offset="13600404" POS="noun" words="area_unit, square_measure -- (a system of units used to measure areas)" />
+		<target offset="13600822" POS="noun" words="volume_unit, capacity_unit, capacity_measure, cubage_unit, cubic_measure, cubic_content_unit, displacement_unit, cubature_unit -- (a unit of measurement of volume or capacity)" />
+	</category>
+	<category name="NUMERIC_WEIGHT">
+		<target offset="5026843" POS="noun" words="weight -- (the vertical force exerted by a mass as a result of gravity)" />
+		<target offset="13609214" POS="noun" words="mass_unit -- (a unit of measurement for mass)" />
+		<target offset="13608788" POS="noun" words="weight_unit, weight -- (a unit used to measure weight)" />
+		<target offset="5024254" POS="noun" words="mass -- (the property of a body that causes it to have weight in a gravitational field)" />
+		<target offset="2704818" POS="verb" words="weigh -- (have a certain weight)" />
+	</category>
+</map>

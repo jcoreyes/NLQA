@@ -1,0 +1,503 @@
+Q="How far is it from Denver to Aspen ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="What county is Modesto , California in ?"	Category="LOCATION_CITY"	Predicted="LOCATION_OTHER"	Heuristic="single (county):::1sense.hypernyms[location]"	CORRECT?false
+Q="Who was Galileo ?"	Category="HUMAN_DESCRIPTION"	Predicted="HUMAN_DESCRIPTION"	CORRECT?true
+Q="What is an atom ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When did Hawaii become a state ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="How tall is the Sears Building ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="George Bush purchased a small interest in which baseball team ?"	Category="HUMAN_GROUP"	Predicted="HUMAN_GROUP"	Heuristic="compound (team,baseball team):::1sense.hypernyms[organization,organisation]"	CORRECT?true
+Q="What is Australia 's national flower ?"	Category="ENTITY_PLANT"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ENTITY_PLANT"	Heuristic="single (flower):::1sense.hypernyms[plant,flora,plant_life]"	CORRECT?false
+Q="Why does the moon turn orange ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What is autism ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What city had a world fair in 1900 ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What person 's head is on a dime ?"	Category="HUMAN_INDIVIDUAL"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="HUMAN_INDIVIDUAL"	Heuristic="single (person):::1sense[person,individual,someone,somebody,mortal,soul]"	CORRECT?false
+Q="What is the average weight of a Yellow Labrador ?"	Category="NUMERIC_WEIGHT"	Predicted="NUMERIC_WEIGHT"	Heuristic="single (weight):::1sense[weight]"	CORRECT?true
+Q="Who was the first man to fly across the Pacific Ocean ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="When did Idaho become a state ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is the life expectancy for crickets ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_PERIOD"	Heuristic="compound (expectancy,life expectancy):::1sense[life_expectancy]"	CORRECT?false
+Q="What metal has the highest melting point ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ENTITY_OTHER"	Heuristic="single (metal):::1sense.hypernyms[substance]"	CORRECT?false
+Q="Who developed the vaccination against polio ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is epilepsy ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What year did the Titanic sink ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="Who was the first American to walk in space ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is a biosphere ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What river in the US is known as the Big Muddy ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (river):::1sense.hypernyms[body_of_water,water]"	CORRECT?true
+Q="What is bipolar disorder ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is cholesterol ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who developed the Macintosh computer ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is caffeine ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What imaginary line is halfway between the North and South Poles ?"	Category="LOCATION_OTHER"	Predicted="ENTITY_OTHER"	Heuristic="single (line):::1sense.hypernyms[group,grouping]"	CORRECT?false
+Q="Where is John Wayne airport ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What hemisphere is the Philippines in ?"	Category="LOCATION_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="LOCATION_OTHER"	Heuristic="single (hemisphere):::1sense.hypernyms[location]"	CORRECT?false
+Q="What is the average speed of the horses at the Kentucky Derby ?"	Category="NUMERIC_SPEED"	Predicted="DESCRIPTION_DESCRIPTION"	CurPredicted="NUMERIC_SPEED"	Heuristic="single (speed):::1sense[speed,velocity]"	CORRECT?false
+Q="Where are the Rocky Mountains ?"	Category="LOCATION_MOUNTAIN"	Predicted="LOCATION_OTHER"	CORRECT?false
+Q="What are invertebrates ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the temperature at the center of the earth ?"	Category="NUMERIC_TEMPERATURE"	Predicted="NUMERIC_TEMPERATURE"	Heuristic="single (temperature):::1sense[temperature]"	CORRECT?true
+Q="When did John F. Kennedy get elected as President ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="How old was Elvis Presley when he died ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	CORRECT?true
+Q="Where is the Orinoco River ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="How far is the service line from the net in tennis ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="How much fiber should you have per day ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="How many Great Lakes are there ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="Material called linen is made from what plant ?"	Category="ENTITY_PLANT"	Predicted="ENTITY_PLANT"	Heuristic="single (plant)"	CORRECT?true
+Q="What is Teflon ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is amitriptyline ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is a shaman ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the proper name for a female walrus ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_TERM"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (walrus):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="What is a group of turkeys called ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (turkeys):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="How long did Rip Van Winkle sleep ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	CORRECT?true
+Q="What are triglycerides ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="How many liters in a gallon ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What is the name of the chocolate company in San Francisco ?"	Category="HUMAN_GROUP"	Predicted="HUMAN_GROUP"	Heuristic="single (company):::1sense.hypernyms[organization,organisation]"	CORRECT?true
+Q="What are amphibians ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who discovered x-rays ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="Which comedian 's signature line is `` Can we talk '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (comedian):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What is fibromyalgia ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is done with worn or outdated flags ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (flags)"	CORRECT?false
+Q="What does cc in engines mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When did Elvis Presley die ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is the capital of Yugoslavia ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (capital)"	CORRECT?true
+Q="Where is Milan ?"	Category="LOCATION_CITY"	Predicted="LOCATION_OTHER"	CORRECT?false
+Q="What is the speed hummingbirds fly ?"	Category="NUMERIC_SPEED"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_SPEED"	Heuristic="single (speed):::1sense[speed,velocity]"	CORRECT?false
+Q="What is the oldest city in the United States ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What was W.C. Fields ' real name ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (name):::1sense[name]"	CORRECT?true
+Q="What river flows between Fargo , North Dakota and Moorhead , Minnesota ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (river):::1sense.hypernyms[body_of_water,water]"	CORRECT?true
+Q="What do bats eat ?"	Category="ENTITY_FOOD"	Predicted="ENTITY_FOOD"	Heuristic="single (bats):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What state did the Battle of Bighorn take place in ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (state):::1sense[state,province]"	CORRECT?true
+Q="Who was Abraham Lincoln ?"	Category="HUMAN_DESCRIPTION"	Predicted="HUMAN_DESCRIPTION"	CORRECT?true
+Q="What do you call a newborn kangaroo ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	CORRECT?true
+Q="What are spider veins ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What day and month did John Lennon die ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (month):::1sense[calendar_month,month]"	CORRECT?true
+Q="What strait separates North America from Asia ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (strait):::1sense.hypernyms[body_of_water,water]"	CORRECT?true
+Q="What is the population of Seattle ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_OTHER"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="How much was a ticket for the Titanic ?"	Category="NUMERIC_MONEY"	Predicted="NUMERIC_MONEY"	CurPredicted="NUMERIC_COUNT"	CORRECT?true
+Q="What is the largest city in the world ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What American composer wrote the music for `` West Side Story '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (composer):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="Where is the Mall of the America ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is the pH scale ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (scale,pH scale):::1sense.hypernyms[measure,quantity,amount]"	CORRECT?true
+Q="What type of currency is used in Australia ?"	Category="ENTITY_CURRENCY"	Predicted="ENTITY_CURRENCY"	Heuristic="single (currency):::1sense[currency]"	CORRECT?true
+Q="How tall is the Gateway Arch in St. Louis , MO ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="How much does the human adult female brain weigh ?"	Category="NUMERIC_WEIGHT"	Predicted="NUMERIC_COUNT"	CORRECT?false
+Q="Who was the first governor of Alaska ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is a prism ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When was the first liver transplant ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="Who was elected president of South Africa in 1994 ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the population of China ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_OTHER"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="When was Rosa Parks born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="Why is a ladybug helpful ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What is amoxicillin ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who was the first female United States Representative ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What are xerophytes ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What country did Ponce de Leon come from ?"	Category="LOCATION_COUNTRY"	Predicted="LOCATION_COUNTRY"	Heuristic="single (country):::1sense[state,nation,country,land,commonwealth,res_publica,body_politic]"	CORRECT?true
+Q="The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?"	Category="ENTITY_EVENT"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_EVENT"	Heuristic="single (war):::1sense.hypernyms[event]"	CORRECT?false
+Q="What is desktop publishing ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the temperature of the sun 's surface ?"	Category="NUMERIC_TEMPERATURE"	Predicted="NUMERIC_TEMPERATURE"	Heuristic="single (temperature):::1sense[temperature]"	CORRECT?true
+Q="What year did Canada join the United Nations ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is the oldest university in the US ?"	Category="HUMAN_GROUP"	Predicted="LOCATION_OTHER"	CurPredicted="HUMAN_GROUP"	Heuristic="single (university):::1sense.hypernyms[group,grouping]"	CORRECT?false
+Q="Where is Prince Edward Island ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Mercury , what year was it discovered ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is cryogenics ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What are coral reefs ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the longest major league baseball-winning streak ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="HUMAN_GROUP"	Heuristic="single (streak):::1sense.hypernyms[group,grouping]"	CORRECT?false
+Q="What is neurology ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who invented the calculator ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="How do you measure earthquakes ?"	Category="DESCRIPTION_MANNER"	Predicted="DESCRIPTION_MANNER"	CORRECT?true
+Q="Who is Duke Ellington ?"	Category="HUMAN_DESCRIPTION"	Predicted="HUMAN_DESCRIPTION"	CORRECT?true
+Q="What county is Phoenix , AZ in ?"	Category="LOCATION_CITY"	Predicted="LOCATION_OTHER"	Heuristic="single (county):::1sense.hypernyms[location]"	CORRECT?false
+Q="What is a micron ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="The sun 's core , what is the temperature ?"	Category="NUMERIC_TEMPERATURE"	Predicted="NUMERIC_TEMPERATURE"	Heuristic="single (temperature):::1sense[temperature]"	CORRECT?true
+Q="What is the Ohio state bird ?"	Category="ENTITY_ANIMAL"	Predicted="LOCATION_STATE"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (bird):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="When were William Shakespeare 's twins born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is the highest dam in the U.S. ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CurPredicted="DESCRIPTION_DEFINITION"	Heuristic="single (dam)"	CORRECT?true
+Q="What color is a poison arrow frog ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="What is acupuncture ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the length of the coastline of the state of Alaska ?"	Category="NUMERIC_DISTANCE"	Predicted="LOCATION_STATE"	CurPredicted="NUMERIC_DISTANCE"	Heuristic="single (length):::1sense.hypernyms[dimension]"	CORRECT?false
+Q="What is the name of Neil Armstrong 's wife ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (wife):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What is Hawaii 's state flower ?"	Category="ENTITY_PLANT"	Predicted="LOCATION_STATE"	CurPredicted="ENTITY_PLANT"	Heuristic="single (flower):::1sense.hypernyms[plant,flora,plant_life]"	CORRECT?false
+Q="Who won Ms. American in 1989 ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="When did the Hindenberg crash ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What mineral helps prevent osteoporosis ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ENTITY_SUBSTANCE"	Heuristic="single (mineral):::1sense.hypernyms[substance]"	CORRECT?false
+Q="What was the last year that the Chicago Cubs won the World Series ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="Where is Perth ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What year did WWII begin ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is the diameter of a golf ball ?"	Category="NUMERIC_DISTANCE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_DISTANCE"	Heuristic="single (diameter):::1sense.hypernyms[dimension]"	CORRECT?false
+Q="What is an eclipse ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who discovered America ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the earth 's diameter ?"	Category="NUMERIC_DISTANCE"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (diameter):::1sense.hypernyms[dimension]"	CORRECT?false
+Q="Which president was unmarried ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (president):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="How wide is the Milky Way galaxy ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="During which season do most thunderstorms occur ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (season):::1sense.hypernyms[time_period,period_of_time,period]"	CORRECT?true
+Q="What is Wimbledon ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the gestation period for a cat ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	Heuristic="compound (period,gestation period):::1sense[time_period,period_of_time,period]"	CORRECT?true
+Q="How far is a nautical mile ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What does target heart rate mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What was the first satellite to go into space ?"	Category="ENTITY_PRODUCT"	Predicted="ENTITY_CREATIVE"	Heuristic="single (satellite)"	CORRECT?false
+Q="What is foreclosure ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the major fault line near Kentucky ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="LOCATION_OTHER"	Heuristic="compound (line,fault line):::1sense.hypernyms[location]"	CORRECT?false
+Q="Where is the Holland Tunnel ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Who wrote the hymn `` Amazing Grace '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What position did Willie Davis play in baseball ?"	Category="HUMAN_TITLE"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="LOCATION_OTHER"	Heuristic="single (position):::1sense.hypernyms[location]"	CORRECT?false
+Q="What are platelets ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is severance pay ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the name of Roy Roger 's dog ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (dog):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="Where are the National Archives ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is a baby turkey called ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_TERM"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (turkey):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="What is poliomyelitis ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the longest bone in the human body ?"	Category="ENTITY_BODY"	Predicted="ENTITY_BODY"	Heuristic="single (bone):::1sense.hypernyms[body_part]"	CORRECT?true
+Q="Who is a German philosopher ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_DESCRIPTION"	CurPredicted="HUMAN_INDIVIDUAL"	CORRECT?false
+Q="What were Christopher Columbus ' three ships ?"	Category="ENTITY_VEHICLE"	Predicted="ENTITY_OTHER"	CurPredicted="ENTITY_VEHICLE"	Heuristic="single (ships):::1sense.hypernyms[vehicle]"	CORRECT?false
+Q="What does Phi Beta Kappa mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is nicotine ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is another name for vitamin B1 ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	Heuristic="compound (B1,vitamin B1):::1sense.hypernyms[food,nutrient]"	CORRECT?true
+Q="Who discovered radium ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What are sunspots ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When was Algeria colonized ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What baseball team was the first to make numbers part of their uniform ?"	Category="HUMAN_GROUP"	Predicted="HUMAN_GROUP"	Heuristic="compound (team,baseball team):::1sense.hypernyms[organization,organisation]"	CORRECT?true
+Q="What continent is Egypt on ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (continent):::1sense.hypernyms[land,dry_land,earth,ground,solid_ground,terra_firma]"	CORRECT?true
+Q="What is the capital of Mongolia ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="compound (capital,capital of Mongolia):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What is nanotechnology ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="In the late 1700 's British convicts were used to populate which colony ?"	Category="LOCATION_OTHER"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="HUMAN_GROUP"	Heuristic="single (colony):::1sense.hypernyms[group,grouping]"	CORRECT?false
+Q="What state is the geographic center of the lower 48 states ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (state):::1sense[state,province]"	CORRECT?true
+Q="What is an obtuse angle ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What are polymers ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When is hurricane season in the Caribbean ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="Where is the volcano Mauna Loa ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is another astronomic term for the Northern Lights ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	Heuristic="single (term):::1sense[term]"	CORRECT?true
+Q="What peninsula is Spain part of ?"	Category="LOCATION_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="LOCATION_OTHER"	Heuristic="single (peninsula):::1sense.hypernyms[land,dry_land,earth,ground,solid_ground,terra_firma]"	CORRECT?false
+Q="When was Lyndon B. Johnson born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is acetaminophen ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What state has the least amount of rain per year ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (state):::1sense[state,province]"	CORRECT?true
+Q="Who founded American Red Cross ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What year did the Milwaukee Braves become the Atlanta Braves ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="How fast is alcohol absorbed ?"	Category="NUMERIC_SPEED"	Predicted="NUMERIC_SPEED"	CORRECT?true
+Q="When is the summer solstice ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is supernova ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Where is the Shawnee National Forest ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What U.S. state 's motto is `` Live free or Die '' ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (state):::1sense[state,province]"	CORRECT?true
+Q="Where is the Lourve ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="When was the first stamp issued ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What primary colors do you mix to make orange ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="compound (colors,primary colors):::1sense.hypernyms[color,colour,coloring,colouring]"	CORRECT?true
+Q="How far is Pluto from the sun ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="What body of water are the Canary Islands in ?"	Category="LOCATION_OTHER"	Predicted="DESCRIPTION_DESCRIPTION"	CurPredicted="LOCATION_OTHER"	Heuristic="compound (body,body of water):::1sense[body_of_water,water]"	CORRECT?false
+Q="What is neuropathy ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Where is the Euphrates River ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is cryptography ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is natural gas composed of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_OTHER"	CurPredicted="ENTITY_SUBSTANCE"	CORRECT?false
+Q="Who is the Prime Minister of Canada ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What French ruler was defeated at the battle of Waterloo ?"	Category="HUMAN_INDIVIDUAL"	Predicted="ENTITY_EVENT"	CurPredicted="HUMAN_INDIVIDUAL"	Heuristic="single (ruler):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?false
+Q="What is leukemia ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Where did Howard Hughes die ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is the birthstone for June ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (birthstone)"	CORRECT?false
+Q="What is the sales tax in Minnesota ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (tax,sales tax)"	CORRECT?false
+Q="What is the distance in miles from the earth to the sun ?"	Category="NUMERIC_DISTANCE"	Predicted="LOCATION_OTHER"	CurPredicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (distance):::1sense[distance]"	CORRECT?false
+Q="What is the average life span for a chicken ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	Heuristic="single (span):::1sense.hypernyms[time_period,period_of_time,period]"	CORRECT?true
+Q="When was the first Wal-Mart store opened ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is relative humidity ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What city has the zip code of 35824 ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What currency is used in Algeria ?"	Category="ENTITY_CURRENCY"	Predicted="ENTITY_CURRENCY"	Heuristic="single (currency):::1sense[currency]"	CORRECT?true
+Q="Who invented the hula hoop ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What was the most popular toy in 1957 ?"	Category="ENTITY_PRODUCT"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_PRODUCT"	Heuristic="single (toy)"	CORRECT?false
+Q="What is pastrami made of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_SUBSTANCE"	CORRECT?true
+Q="What is the name of the satellite that the Soviet Union sent into space in 1957 ?"	Category="ENTITY_PRODUCT"	Predicted="ENTITY_EVENT"	CurPredicted="LOCATION_OTHER"	Heuristic="single (satellite)"	CORRECT?false
+Q="What city 's newspaper is called `` The Enquirer '' ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="Who invented the slinky ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What are the animals that don 't have backbones called ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (animals):::1sense[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What is the melting point of copper ?"	Category="NUMERIC_OTHER"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (point,melting point):::1sense.hypernyms[temperature]"	CORRECT?false
+Q="Where is the volcano Olympus Mons located ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Who was the 23rd president of the United States ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the average body temperature ?"	Category="NUMERIC_TEMPERATURE"	Predicted="NUMERIC_TEMPERATURE"	Heuristic="compound (temperature,body temperature):::1sense.hypernyms[temperature]"	CORRECT?true
+Q="What does a defibrillator do ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="ENTITY_OTHER"	CurPredicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (defibrillator)"	CORRECT?false
+Q="What is the effect of acid rain ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (effect)"	CORRECT?true
+Q="What year did the United States abolish the draft ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="How fast is the speed of light ?"	Category="NUMERIC_SPEED"	Predicted="NUMERIC_SPEED"	CORRECT?true
+Q="What province is Montreal in ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (province):::1sense[state,province]"	CORRECT?true
+Q="What New York City structure is also known as the Twin Towers ?"	Category="LOCATION_OTHER"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_TERM"	Heuristic="single (structure)"	CORRECT?false
+Q="What is fungus ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the most frequently spoken language in the Netherlands ?"	Category="ENTITY_LANGUAGE"	Predicted="ENTITY_LANGUAGE"	Heuristic="single (language):::1sense[language,linguistic_communication]"	CORRECT?true
+Q="What is sodium chloride ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What are the spots on dominoes called ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	Heuristic="single (spots):::1sense.hypernyms[symptom]"	CORRECT?true
+Q="How many pounds in a ton ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What is influenza ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is ozone depletion ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What year was the Mona Lisa painted ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What does `` Sitting Shiva '' mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the electrical output in Madrid , Spain ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (output)"	CORRECT?false
+Q="Which mountain range in North America stretches from Maine to Georgia ?"	Category="LOCATION_MOUNTAIN"	Predicted="LOCATION_MOUNTAIN"	Heuristic="compound (range,mountain range):::1sense[range,mountain_range,range_of_mountains,chain,mountain_chain,chain_of_mountains]"	CORRECT?true
+Q="What is plastic made of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_SUBSTANCE"	CORRECT?true
+Q="What is the population of Nigeria ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_OTHER"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="What does your spleen do ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (spleen):::1sense.hypernyms[body_part]"	CORRECT?true
+Q="Where is the Grand Canyon ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Who invented the telephone ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What year did the U.S. buy Alaska ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is the name of the leader of Ireland ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (leader):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What is phenylalanine ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="How many gallons of water are there in a cubic foot ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What are the two houses of the Legislative branch ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ENTITY_OTHER"	Heuristic="single (houses)"	CORRECT?false
+Q="What is sonar ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="In Poland , where do most people live ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (people):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="What is phosphorus ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the location of the Sea of Tranquility ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (location):::1sense[location]"	CORRECT?true
+Q="How fast is sound ?"	Category="NUMERIC_SPEED"	Predicted="NUMERIC_SPEED"	CORRECT?true
+Q="What French province is cognac produced in ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (province):::1sense[state,province]"	CORRECT?true
+Q="What is Valentine 's Day ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_DATE"	Heuristic="single (Day):::1sense[day,twenty-four_hours,twenty-four_hour_period,24-hour_interval,solar_day,mean_solar_day]"	CORRECT?true
+Q="What causes gray hair ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What is hypertension ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is bandwidth ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the longest suspension bridge in the U.S. ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="compound (bridge,suspension bridge)"	CORRECT?true
+Q="What is a parasite ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is home equity ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What do meteorologists do ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (meteorologists):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What is the criterion for being legally blind ?"	Category="ENTITY_OTHER"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (criterion):::1sense.hypernyms[measure,quantity,amount]"	CORRECT?false
+Q="Who is the tallest man in the world ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What are the twin cities ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="compound (cities,twin cities):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What did Edward Binney and Howard Smith invent in 1903 ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_OTHER"	Heuristic="single (Smith):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What is the statue of liberty made of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_SUBSTANCE"	CORRECT?true
+Q="What is pilates ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What planet is known as the `` red '' planet ?"	Category="LOCATION_OTHER"	Predicted="ENTITY_TERM"	CurPredicted="LOCATION_OTHER"	Heuristic="single (planet):::1sense.hypernyms[celestial_body,heavenly_body]"	CORRECT?false
+Q="What is the depth of the Nile river ?"	Category="NUMERIC_DISTANCE"	Predicted="LOCATION_OTHER"	CurPredicted="NUMERIC_DISTANCE"	Heuristic="single (depth):::1sense[depth,deepness]"	CORRECT?false
+Q="What is the colorful Korean traditional dress called ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	Heuristic="single (dress)"	CORRECT?true
+Q="What is Mardi Gras ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Mexican pesos are worth what in U.S. dollars ?"	Category="NUMERIC_MONEY"	Predicted="LOCATION_OTHER"	CurPredicted="NUMERIC_MONEY"	Heuristic="single (dollars):::1sense.hypernyms[monetary_unit]"	CORRECT?false
+Q="Who was the first African American to play for the Brooklyn Dodgers ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="Who was the first Prime Minister of Canada ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="How many Admirals are there in the U.S. Navy ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What instrument did Glenn Miller play ?"	Category="ENTITY_INSTRUMENT"	Predicted="ENTITY_INSTRUMENT"	Heuristic="single (instrument)"	CORRECT?true
+Q="How old was Joan of Arc when she died ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	CORRECT?true
+Q="What does the word fortnight mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is dianetics ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the capital of Ethiopia ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="compound (capital,capital of Ethiopia):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="For how long is an elephant pregnant ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	Heuristic="single (elephant):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="How did Janice Joplin die ?"	Category="DESCRIPTION_MANNER"	Predicted="DESCRIPTION_MANNER"	CORRECT?true
+Q="What is the primary language in Iceland ?"	Category="ENTITY_LANGUAGE"	Predicted="ENTITY_LANGUAGE"	Heuristic="single (language):::1sense[language,linguistic_communication]"	CORRECT?true
+Q="What is the difference between AM radio stations and FM radio stations ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (difference):::1sense[difference]"	CORRECT?true
+Q="What is osteoporosis ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who was the first woman governor in the U.S. ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is peyote ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the esophagus used for ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What is viscosity ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What year did Oklahoma become a state ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is the abbreviation for Texas ?"	Category="ABBREVIATION_ABBREVIATION"	Predicted="ABBREVIATION_ABBREVIATION"	Heuristic="single (abbreviation):::1sense[abbreviation]"	CORRECT?true
+Q="What is a mirror made out of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_SUBSTANCE"	CORRECT?true
+Q="Where on the body is a mortarboard worn ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What was J.F.K. 's wife 's name ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (name):::1sense[name]"	CORRECT?true
+Q="What does I.V. stand for ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="What is the chunnel ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (chunnel)"	CORRECT?true
+Q="Where is Hitler buried ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What are antacids ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is pulmonary fibrosis ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What are Quaaludes ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is naproxen ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is strep throat ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the largest city in the U.S. ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What is foot and mouth disease ?"	Category="ENTITY_MEDICINE"	Predicted="ENTITY_MEDICINE"	Heuristic="single (disease):::1sense.hypernyms[physical_condition,physiological_state,physiological_condition]"	CORRECT?true
+Q="What is the life expectancy of a dollar bill ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_PERIOD"	Heuristic="compound (expectancy,life expectancy):::1sense[life_expectancy]"	CORRECT?false
+Q="What do you call a professional map drawer ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	CORRECT?true
+Q="What are Aborigines ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is hybridization ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What color is indigo ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="How old do you have to be in order to rent a car in Italy ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	CORRECT?true
+Q="What does a barometer measure ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_OTHER"	Heuristic="single (barometer)"	CORRECT?true
+Q="What color is a giraffe 's tongue ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="What does USPS stand for ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="What year did the NFL go on strike ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is solar wind ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What date did Neil Armstrong land on the moon ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (date):::1sense[date,day_of_the_month]"	CORRECT?true
+Q="When was Hiroshima bombed ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="Where is the Savannah River ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Who was the first woman killed in the Vietnam War ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What planet has the strongest magnetic field of all the planets ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (planet):::1sense.hypernyms[celestial_body,heavenly_body]"	CORRECT?true
+Q="Who is the governor of Alaska ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What year did Mussolini seize power in Italy ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is the capital of Persia ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (capital)"	CORRECT?true
+Q="Where is the Eiffel Tower ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="How many hearts does an octopus have ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What is pneumonia ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the deepest lake in the US ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (lake):::1sense.hypernyms[body_of_water,water]"	CORRECT?true
+Q="What is a fuel cell ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who was the first U.S. president to appear on TV ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="Where is the Little League Museum ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What are the two types of twins ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_OTHER"	Heuristic="single (twins)"	CORRECT?true
+Q="What is the brightest star ?"	Category="LOCATION_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="LOCATION_OTHER"	Heuristic="single (star):::1sense.hypernyms[celestial_body,heavenly_body]"	CORRECT?false
+Q="What is diabetes ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="When was President Kennedy shot ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is TMJ ?"	Category="ABBREVIATION_EXPANSION"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ABBREVIATION_EXPANSION"	CORRECT?false
+Q="What color is yak milk ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="What date was Dwight D. Eisenhower born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (date):::1sense[date,day_of_the_month]"	CORRECT?true
+Q="What does the technical term ISDN mean ?"	Category="ABBREVIATION_EXPANSION"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ABBREVIATION_EXPANSION"	CORRECT?false
+Q="Why is the sun yellow ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What is the conversion rate between dollars and pounds ?"	Category="NUMERIC_MONEY"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_OTHER"	Heuristic="single (rate):::1sense.hypernyms[magnitude_relation,quantitative_relation]"	CORRECT?false
+Q="When was Abraham Lincoln born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is the Milky Way ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (Way,Milky Way):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="What is mold ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What year was Mozart born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is a group of frogs called ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (frogs):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What is the name of William Penn 's ship ?"	Category="ENTITY_VEHICLE"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_VEHICLE"	Heuristic="single (ship):::1sense.hypernyms[vehicle]"	CORRECT?false
+Q="What is the melting point of gold ?"	Category="NUMERIC_OTHER"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (point,melting point):::1sense.hypernyms[temperature]"	CORRECT?false
+Q="What is the street address of the White House ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="compound (address,street address):::1sense.hypernyms[location]"	CORRECT?true
+Q="What is semolina ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What fruit is Melba sauce made from ?"	Category="ENTITY_FOOD"	Predicted="ENTITY_SUBSTANCE"	Heuristic="single (fruit):::1sense[fruit]"	CORRECT?false
+Q="What is Ursa Major ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the percentage of water content in the human body ?"	Category="NUMERIC_PERCENT"	Predicted="NUMERIC_PERCENT"	Heuristic="single (percentage):::1sense.hypernyms[magnitude_relation,quantitative_relation]"	CORRECT?true
+Q="How much does water weigh ?"	Category="NUMERIC_WEIGHT"	Predicted="NUMERIC_WEIGHT"	CORRECT?true
+Q="What was President Lyndon Johnson 's reform program called ?"	Category="ENTITY_EVENT"	Predicted="ENTITY_CREATIVE"	CurPredicted="ENTITY_TERM"	Heuristic="single (program)"	CORRECT?false
+Q="What is the murder rate in Windsor , Ontario ?"	Category="NUMERIC_PERCENT"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_PERCENT"	Heuristic="single (rate):::1sense.hypernyms[magnitude_relation,quantitative_relation]"	CORRECT?false
+Q="Who is the only president to serve 2 non-consecutive terms ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the population of Australia ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_OTHER"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="Who painted the ceiling of the Sistine Chapel ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="Name a stimulant ."	Category="ENTITY_MEDICINE"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_OTHER"	Heuristic="single (stimulant)"	CORRECT?false
+Q="What is the effect of volcanoes on the climate ?"	Category="DESCRIPTION_DESCRIPTION"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (effect)"	CORRECT?true
+Q="What year did the Andy Griffith show begin ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="What is acid rain ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the date of Mexico 's independence ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (date):::1sense[date,day_of_the_month]"	CORRECT?true
+Q="What is the location of Lake Champlain ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (location):::1sense[location]"	CORRECT?true
+Q="What is the Illinois state flower ?"	Category="ENTITY_PLANT"	Predicted="LOCATION_STATE"	CurPredicted="ENTITY_PLANT"	Heuristic="single (flower):::1sense.hypernyms[plant,flora,plant_life]"	CORRECT?false
+Q="What is Maryland 's state bird ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (bird):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What is quicksilver ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who wrote `` The Divine Comedy '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the speed of light ?"	Category="NUMERIC_SPEED"	Predicted="DESCRIPTION_DESCRIPTION"	CurPredicted="NUMERIC_SPEED"	Heuristic="compound (speed,speed of light):::1sense.hypernyms[speed,velocity]"	CORRECT?false
+Q="What is the width of a football field ?"	Category="NUMERIC_DISTANCE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_DISTANCE"	Heuristic="single (width):::1sense.hypernyms[dimension]"	CORRECT?false
+Q="Why in tennis are zero points called love ?"	Category="DESCRIPTION_REASON"	Predicted="DESCRIPTION_REASON"	CORRECT?true
+Q="What kind of dog was Toto in the Wizard of Oz ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (dog):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What is a thyroid ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What does ciao mean ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the only artery that carries blue blood from the heart to the lungs ?"	Category="ENTITY_BODY"	Predicted="ENTITY_BODY"	Heuristic="single (artery):::1sense.hypernyms[body_part]"	CORRECT?true
+Q="How often does Old Faithful erupt at Yellowstone National Park ?"	Category="NUMERIC_OTHER"	Predicted="DESCRIPTION_MANNER"	CurPredicted="NUMERIC_OTHER"	CORRECT?false
+Q="What is acetic acid ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the elevation of St. Louis , MO ?"	Category="NUMERIC_DISTANCE"	Predicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (elevation):::1sense.hypernyms[event]"	CORRECT?false
+Q="What color does litmus paper turn when it comes into contact with a strong acid ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="What are the colors of the German flag ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (colors)"	CORRECT?true
+Q="What is the Moulin Rouge ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (Rouge)"	CORRECT?true
+Q="What soviet seaport is on the Black Sea ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (seaport):::1sense.hypernyms[location]"	CORRECT?true
+Q="What is the atomic weight of silver ?"	Category="NUMERIC_WEIGHT"	Predicted="NUMERIC_WEIGHT"	Heuristic="compound (weight,atomic weight):::1sense.hypernyms[mass]"	CORRECT?true
+Q="What currency do they use in Brazil ?"	Category="ENTITY_CURRENCY"	Predicted="ENTITY_OTHER"	CurPredicted="DESCRIPTION_DESCRIPTION"	Heuristic="single (currency):::1sense[currency]"	CORRECT?false
+Q="What are pathogens ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is mad cow disease ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Name a food high in zinc ."	Category="ENTITY_FOOD"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_FOOD"	Heuristic="single (food):::1sense[food,nutrient]"	CORRECT?false
+Q="When did North Carolina enter the union ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="Where do apple snails live ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What are ethics ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What does CPR stand for ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="What is an annuity ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who killed John F. Kennedy ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="Who was the first vice president of the U.S. ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What birthstone is turquoise ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (birthstone)"	CORRECT?false
+Q="Who was the first US President to ride in an automobile to his inauguration ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="How old was the youngest president of the United States ?"	Category="NUMERIC_PERIOD"	Predicted="NUMERIC_PERIOD"	CORRECT?true
+Q="When was Ulysses S. Grant born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is Muscular Dystrophy ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who lived in the Neuschwanstein castle ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is propylene glycol ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is a panic disorder ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who invented the instant Polaroid camera ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is a carcinogen ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is a baby lion called ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_TERM"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (lion):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="What is the world 's population ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_COUNT"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?false
+Q="What is nepotism ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is die-casting ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is myopia ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the sales tax rate in New York ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_PERCENT"	CurPredicted="NUMERIC_MONEY"	Heuristic="compound (rate,tax rate):::1sense.hypernyms[outgo,spending,expenditure,outlay]"	CORRECT?false
+Q="Developing nations comprise what percentage of the world 's population ?"	Category="NUMERIC_PERCENT"	Predicted="NUMERIC_COUNT"	CurPredicted="NUMERIC_PERCENT"	Heuristic="single (percentage):::1sense.hypernyms[magnitude_relation,quantitative_relation]"	CORRECT?false
+Q="What is the fourth highest mountain in the world ?"	Category="LOCATION_MOUNTAIN"	Predicted="LOCATION_MOUNTAIN"	Heuristic="single (mountain):::1sense[mountain,mount]"	CORRECT?true
+Q="What is Shakespeare 's nickname ?"	Category="HUMAN_INDIVIDUAL"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="HUMAN_INDIVIDUAL"	Heuristic="single (nickname):::1sense.hypernyms[name]"	CORRECT?false
+Q="What is the heaviest naturally occurring element ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (element)"	CORRECT?false
+Q="When is Father 's Day ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What does the acronym NASA stand for ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="How long is the Columbia River in miles ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_PERIOD"	CurPredicted="NUMERIC_DISTANCE"	CORRECT?false
+Q="What city 's newspaper is called `` The Star '' ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What is carbon dioxide ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Where is the Mason/Dixon line ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="When was the Boston tea party ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is metabolism ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Which U.S.A. president appeared on `` Laugh-In '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (president):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?true
+Q="What are cigarettes made of ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_SUBSTANCE"	CORRECT?true
+Q="What is the capital of Zimbabwe ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="compound (capital,capital of Zimbabwe):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What does NASA stand for ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="What is the state flower of Michigan ?"	Category="ENTITY_PLANT"	Predicted="LOCATION_STATE"	CurPredicted="ENTITY_PLANT"	Heuristic="single (flower):::1sense.hypernyms[plant,flora,plant_life]"	CORRECT?false
+Q="What are semiconductors ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is nuclear power ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is a tsunami ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who is the congressman from state of Texas on the armed forces committee ?"	Category="HUMAN_INDIVIDUAL"	Predicted="LOCATION_STATE"	CurPredicted="HUMAN_INDIVIDUAL"	CORRECT?false
+Q="Who was president in 1913 ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_DESCRIPTION"	CurPredicted="HUMAN_INDIVIDUAL"	CORRECT?false
+Q="When was the first kidney transplant ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What are Canada 's two territories ?"	Category="LOCATION_OTHER"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="LOCATION_OTHER"	Heuristic="single (territories):::1sense.hypernyms[location]"	CORRECT?false
+Q="What was the name of the plane Lindbergh flew solo across the Atlantic ?"	Category="ENTITY_VEHICLE"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_VEHICLE"	Heuristic="single (plane):::1sense.hypernyms[vehicle]"	CORRECT?false
+Q="What is genocide ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What continent is Argentina on ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (continent):::1sense.hypernyms[land,dry_land,earth,ground,solid_ground,terra_firma]"	CORRECT?true
+Q="What monastery was raided by Vikings in the late eighth century ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_CREATIVE"	CurPredicted="ENTITY_OTHER"	Heuristic="single (monastery)"	CORRECT?false
+Q="What is an earthquake ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Where is the tallest roller coaster located ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What are enzymes ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="Who discovered oxygen ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is bangers and mash ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (mash):::1sense.hypernyms[substance]"	CORRECT?true
+Q="What is the name given to the Tiger at Louisiana State University ?"	Category="ENTITY_ANIMAL"	Predicted="HUMAN_INDIVIDUAL"	Heuristic="single (name):::1sense[name]"	CORRECT?false
+Q="Where are the British crown jewels kept ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="Who was the first person to reach the North Pole ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is an ulcer ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is vertigo ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is the spirometer test ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (test)"	CORRECT?true
+Q="When is the official first day of summer ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What does the abbreviation SOS mean ?"	Category="ABBREVIATION_EXPANSION"	Predicted="ABBREVIATION_EXPANSION"	CORRECT?true
+Q="What is the smallest bird in Britain ?"	Category="ENTITY_ANIMAL"	Predicted="LOCATION_OTHER"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (bird):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="Who invented Trivial Pursuit ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What gasses are in the troposphere ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (gasses)"	CORRECT?false
+Q="Which country has the most water pollution ?"	Category="LOCATION_COUNTRY"	Predicted="LOCATION_COUNTRY"	Heuristic="single (country):::1sense[state,nation,country,land,commonwealth,res_publica,body_politic]"	CORRECT?true
+Q="What is the scientific name for elephant ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_TERM"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (elephant):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?false
+Q="Who is the actress known for her role in the movie `` Gypsy '' ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What breed of hunting dog did the Beverly Hillbillies own ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_OTHER"	CurPredicted="ENTITY_ANIMAL"	Heuristic="single (breed):::1sense.hypernyms[animal_group]"	CORRECT?false
+Q="What is the rainiest place on Earth ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (place):::1sense.hypernyms[location]"	CORRECT?true
+Q="Who was the first African American to win the Nobel Prize in literature ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="When is St. Patrick 's Day ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What was FDR 's dog 's name ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	CurPredicted="HUMAN_INDIVIDUAL"	Heuristic="single (name):::1sense[name]"	CORRECT?true
+Q="What colors need to be mixed to get the color pink ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (colors)"	CORRECT?true
+Q="What is the most popular sport in Japan ?"	Category="ENTITY_SPORT"	Predicted="ENTITY_SPORT"	Heuristic="single (sport):::1sense[sport,athletics]"	CORRECT?true
+Q="What is the active ingredient in baking soda ?"	Category="ENTITY_FOOD"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="single (ingredient)"	CORRECT?false
+Q="When was Thomas Jefferson born ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="How cold should a refrigerator be ?"	Category="NUMERIC_TEMPERATURE"	Predicted="DESCRIPTION_MANNER"	CORRECT?false
+Q="When was the telephone invented ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	CORRECT?true
+Q="What is the most common eye color ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="Where was the first golf course in the United States ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	CORRECT?true
+Q="What is schizophrenia ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is angiotensin ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What did Jesse Jackson organize ?"	Category="HUMAN_GROUP"	Predicted="ENTITY_OTHER"	CurPredicted="HUMAN_INDIVIDUAL"	Heuristic="compound (Jackson,Jesse Jackson):::1sense.hypernyms[person,individual,someone,somebody,mortal,soul]"	CORRECT?false
+Q="What is New York 's state bird ?"	Category="ENTITY_ANIMAL"	Predicted="ENTITY_ANIMAL"	Heuristic="single (bird):::1sense.hypernyms[animal,animate_being,beast,brute,creature,fauna]"	CORRECT?true
+Q="What is the National Park in Utah ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="compound (Park,National Park):::1sense.hypernyms[location]"	CORRECT?true
+Q="What is Susan B. Anthony 's birthday ?"	Category="NUMERIC_DATE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_DATE"	Heuristic="single (birthday):::1sense.hypernyms[time_period,period_of_time,period]"	CORRECT?false
+Q="In which state would you find the Catskill Mountains ?"	Category="LOCATION_STATE"	Predicted="LOCATION_STATE"	Heuristic="single (state):::1sense[state,province]"	CORRECT?true
+Q="What do you call a word that is spelled the same backwards and forwards ?"	Category="ENTITY_TERM"	Predicted="ENTITY_TERM"	CORRECT?true
+Q="What are pediatricians ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What chain store is headquartered in Bentonville , Arkansas ?"	Category="HUMAN_GROUP"	Predicted="DESCRIPTION_DEFINITION"	Heuristic="compound (store,chain store)"	CORRECT?false
+Q="What are solar cells ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is compounded interest ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What are capers ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is an antigen ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What currency does Luxembourg use ?"	Category="ENTITY_CURRENCY"	Predicted="ENTITY_OTHER"	Heuristic="single (currency):::1sense[currency]"	CORRECT?false
+Q="What is the population of Venezuela ?"	Category="NUMERIC_OTHER"	Predicted="NUMERIC_OTHER"	Heuristic="single (population):::1sense.hypernyms[group,grouping]"	CORRECT?true
+Q="What type of polymer is used for bulletproof vests ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_OTHER"	CurPredicted="ENTITY_MEDICINE"	Heuristic="single (polymer):::1sense.hypernyms[substance]"	CORRECT?true
+Q="What currency does Argentina use ?"	Category="ENTITY_CURRENCY"	Predicted="ENTITY_OTHER"	Heuristic="single (currency):::1sense[currency]"	CORRECT?false
+Q="What is a thermometer ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What Canadian city has the largest population ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="What color are crickets ?"	Category="ENTITY_COLOR"	Predicted="ENTITY_COLOR"	Heuristic="single (color):::1sense[color,colour,coloring,colouring]"	CORRECT?true
+Q="Which country gave New York the Statue of Liberty ?"	Category="LOCATION_COUNTRY"	Predicted="LOCATION_COUNTRY"	Heuristic="single (country):::1sense[state,nation,country,land,commonwealth,res_publica,body_politic]"	CORRECT?true
+Q="What was the name of the first U.S. satellite sent into space ?"	Category="ENTITY_PRODUCT"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_EVENT"	Heuristic="single (satellite)"	CORRECT?false
+Q="What precious stone is a form of pure carbon ?"	Category="ENTITY_SUBSTANCE"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="ENTITY_OTHER"	Heuristic="compound (stone,precious stone)"	CORRECT?false
+Q="What kind of gas is in a fluorescent bulb ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_OTHER"	Heuristic="single (gas)"	CORRECT?false
+Q="What is rheumatoid arthritis ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What river runs through Rowe , Italy ?"	Category="LOCATION_OTHER"	Predicted="LOCATION_OTHER"	Heuristic="single (river):::1sense.hypernyms[body_of_water,water]"	CORRECT?true
+Q="What is cerebral palsy ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What city is also known as `` The Gateway to the West '' ?"	Category="LOCATION_CITY"	Predicted="LOCATION_CITY"	Heuristic="single (city):::1sense.hypernyms[urban_area,populated_area]"	CORRECT?true
+Q="How far away is the moon ?"	Category="NUMERIC_DISTANCE"	Predicted="NUMERIC_DISTANCE"	CORRECT?true
+Q="What is the source of natural gas ?"	Category="ENTITY_OTHER"	Predicted="ENTITY_OTHER"	CurPredicted="LOCATION_OTHER"	Heuristic="single (source):::1sense.hypernyms[location]"	CORRECT?true
+Q="In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?"	Category="ENTITY_VEHICLE"	Predicted="HUMAN_INDIVIDUAL"	CurPredicted="ENTITY_VEHICLE"	Heuristic="single (spacecraft):::1sense.hypernyms[vehicle]"	CORRECT?false
+Q="What is pectin ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What is bio-diversity ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+Q="What 's the easiest way to remove wallpaper ?"	Category="ENTITY_TECHNIQUE"	Predicted="ENTITY_TECHNIQUE"	Heuristic="single (way):::1sense[manner,mode,style,way,fashion]"	CORRECT?true
+Q="What year did the Titanic start on its journey ?"	Category="NUMERIC_DATE"	Predicted="NUMERIC_DATE"	Heuristic="single (year):::1sense[year,twelvemonth,yr]"	CORRECT?true
+Q="How much of an apple is water ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="Who was the 22nd President of the US ?"	Category="HUMAN_INDIVIDUAL"	Predicted="HUMAN_INDIVIDUAL"	CORRECT?true
+Q="What is the money they use in Zambia ?"	Category="ENTITY_CURRENCY"	Predicted="DESCRIPTION_DEFINITION"	CurPredicted="NUMERIC_MONEY"	Heuristic="single (money):::1sense[money]"	CORRECT?false
+Q="How many feet in a mile ?"	Category="NUMERIC_COUNT"	Predicted="NUMERIC_COUNT"	CORRECT?true
+Q="What is the birthstone of October ?"	Category="ENTITY_SUBSTANCE"	Predicted="ENTITY_OTHER"	Heuristic="single (birthstone)"	CORRECT?false
+Q="What is e-coli ?"	Category="DESCRIPTION_DEFINITION"	Predicted="DESCRIPTION_DEFINITION"	CORRECT?true
+
+
+SVM FINE Question classification of 500 instances in 319610 ms. with accuracy 0.802

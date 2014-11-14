@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config language="en">
+    <interpretation>
+        <classification>
+            <!-- training and test directories -->
+            <trainDir>resources/classification/train/</trainDir>
+            <testDir>resources/classification/test/</testDir>
+            <forceTraining>true</forceTraining>
+            <modelsClassifierFile>resources/classification/models/questionclassifier_en</modelsClassifierFile>
+        </classification>
+        <analysis>
+            <!-- tokenizer type (PTB;LINGPIPE) -->
+            <tokenizerType>PTB</tokenizerType>
+            <!-- syntactic parser grammar -->
+            <parserGrammarFile>resources/parser/english/questionbank_modified.gr</parserGrammarFile>
+            <!-- # Lexicon map -->
+            <lexiconmapFile>resources/classification/map/WordNetMap.xml</lexiconmapFile>
+        </analysis>
+    </interpretation>
+    <nlp>
+        <wordnet>
+            <!-- configuration file (file_properties.xml;map_properties.xml;database_properties.xml)-->
+            <properties>resources/wordnet/file_properties.xml</properties>
+        </wordnet>
+    </nlp>
+</config>
+

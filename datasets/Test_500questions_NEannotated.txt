@@ -1,0 +1,500 @@
+How far is it from <LOC>Denver</LOC> to <LOC>Aspen</LOC> ?
+What county is <LOC>Modesto</LOC> , <LOC>California</LOC> in ?
+Who was <PER>Galileo</PER> ?
+What is an atom ?
+When did <LOC>Hawaii</LOC> become a state ?
+How tall is the <LOC>Sears Building</LOC> ?
+<PER>George Bush</PER> purchased a small interest in which baseball team ?
+What is <LOC>Australia</LOC> 's national flower ?
+Why does the moon turn orange ?
+What is autism ?
+What city had a world fair in 1900 ?
+What person 's head is on a dime ?
+What is the average weight of a Yellow Labrador ?
+Who was the first man to fly across the <LOC>Pacific Ocean</LOC> ?
+When did <LOC>Idaho</LOC> become a state ?
+What is the life expectancy for crickets ?
+What metal has the highest melting point ?
+Who developed the vaccination against polio ?
+What is epilepsy ?
+What year did the Titanic sink ?
+Who was the first American to walk in space ?
+What is a biosphere ?
+What river in the <LOC>US</LOC> is known as <LOC>the Big Muddy</LOC> ?
+What is bipolar disorder ?
+What is cholesterol ?
+Who developed the Macintosh computer ?
+What is caffeine ?
+What imaginary line is halfway between the <LOC>North</LOC> and <LOC>South Poles</LOC> ?
+Where is <LOC>John Wayne airport</LOC> ?
+What hemisphere is the <LOC>Philippines</LOC> in ?
+What is the average speed of the horses at the Kentucky Derby ?
+Where are the <LOC>Rocky Mountains</LOC> ?
+What are invertebrates ?
+What is the temperature at the center of the <LOC>earth</LOC> ?
+When did <PER>John F. Kennedy</PER> get elected as President ?
+How old was <PER>Elvis Presley</PER> when he died ?
+Where is the <LOC>Orinoco River</LOC> ?
+How far is the service line from the net in tennis ?
+How much fiber should you have per day ?
+How many Great Lakes are there ?
+Material called linen is made from what plant ?
+What is Teflon ?
+What is amitriptyline ?
+What is a shaman ?
+What is the proper name for a female walrus ?
+What is a group of turkeys called ?
+How long did <PER>Rip Van Winkle</PER> sleep ?
+What are triglycerides ?
+How many liters in a gallon ?
+What is the name of the chocolate company in <LOC>San Francisco</LOC> ?
+What are amphibians ?
+Who discovered x-rays ?
+Which comedian 's signature line is `` Can we talk '' ?
+What is fibromyalgia ?
+What is done with worn or outdated flags ?
+What does cc in engines mean ?
+When did <PER>Elvis Presley</PER> die ?
+What is the capital of <LOC>Yugoslavia</LOC> ?
+Where is <LOC>Milan</LOC> ?
+What is the speed hummingbirds fly ?
+What is the oldest city in the <LOC>United States</LOC> ?
+What was <PER>W.C. Fields</PER> ' real name ?
+What river flows between <LOC>Fargo</LOC> , <LOC>North Dakota</LOC> and <LOC>Moorhead</LOC> , <LOC>Minnesota</LOC> ?
+What do bats eat ?
+What state did the Battle of Bighorn take place in ?
+Who was <PER>Abraham Lincoln</PER> ?
+What do you call a newborn kangaroo ?
+What are spider veins ?
+What day and month did <PER>John Lennon</PER> die ?
+What strait separates <LOC>North America</LOC> from <LOC>Asia</LOC> ?
+What is the population of <LOC>Seattle</LOC> ?
+How much was a ticket for the Titanic ?
+What is the largest city in the world ?
+What American composer wrote the music for `` West Side Story '' ?
+Where is the <ORG>Mall of the America</ORG> ?
+What is the pH scale ?
+What type of currency is used in <LOC>Australia</LOC> ?
+How tall is the <LOC>Gateway Arch</LOC> in <LOC>St. Louis</LOC> , <LOC>MO</LOC> ?
+How much does the human adult female brain weigh ?
+Who was the first governor of <LOC>Alaska</LOC> ?
+What is a prism ?
+When was the first liver transplant ?
+Who was elected president of <LOC>South Africa</LOC> in 1994 ?
+What is the population of <LOC>China</LOC> ?
+When was <PER>Rosa Parks</PER> born ?
+Why is a ladybug helpful ?
+What is amoxicillin ?
+Who was the first female <LOC>United States</LOC> Representative ?
+What are xerophytes ?
+What country did <PER>Ponce de Leon</PER> come from ?
+The <LOC>U.S.</LOC> Department of <ORG>Treasury</ORG> first issued paper currency for the <LOC>U.S.</LOC> during which war ?
+What is desktop publishing ?
+What is the temperature of the sun 's surface ?
+What year did <LOC>Canada</LOC> join the <ORG>United Nations</ORG> ?
+What is the oldest university in the <LOC>US</LOC> ?
+Where is <LOC>Prince Edward Island</LOC> ?
+<LOC>Mercury</LOC> , what year was it discovered ?
+What is cryogenics ?
+What are coral reefs ?
+What is the longest major league baseball-winning streak ?
+What is neurology ?
+Who invented the calculator ?
+How do you measure earthquakes ?
+Who is <PER>Duke Ellington</PER> ?
+What county is <LOC>Phoenix</LOC> , <LOC>AZ</LOC> in ?
+What is a micron ?
+The <LOC>sun</LOC> 's core , what is the temperature ?
+What is the <LOC>Ohio</LOC> state bird ?
+When were <PER>William Shakespeare</PER> 's twins born ?
+What is the highest dam in the <LOC>U.S.</LOC> ?
+What color is a poison arrow frog ?
+What is acupuncture ?
+What is the length of the coastline of the <LOC>state of Alaska</LOC> ?
+What is the name of <PER>Neil Armstrong</PER> 's wife ?
+What is <LOC>Hawaii</LOC> 's state flower ?
+Who won Ms. American in 1989 ?
+When did the Hindenberg crash ?
+What mineral helps prevent osteoporosis ?
+What was the last year that the <ORG>Chicago Cubs</ORG> won the World Series ?
+Where is <LOC>Perth</LOC> ?
+What year did WWII begin ?
+What is the diameter of a golf ball ?
+What is an eclipse ?
+Who discovered <LOC>America</LOC> ?
+What is the <LOC>earth</LOC> 's diameter ?
+Which president was unmarried ?
+How wide is the <LOC>Milky Way galaxy</LOC> ?
+During which season do most thunderstorms occur ?
+What is Wimbledon ?
+What is the gestation period for a cat ?
+How far is a nautical mile ?
+Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?
+What does target heart rate mean ?
+What was the first satellite to go into space ?
+What is foreclosure ?
+What is the major fault line near <LOC>Kentucky</LOC> ?
+Where is the <LOC>Holland Tunnel</LOC> ?
+Who wrote the hymn `` Amazing Grace '' ?
+What position did <PER>Willie Davis</PER> play in baseball ?
+What are platelets ?
+What is severance pay ?
+What is the name of <PER>Roy Roger</PER> 's dog ?
+Where are the National Archives ?
+What is a baby turkey called ?
+What is poliomyelitis ?
+What is the longest bone in the human body ?
+Who is a German philosopher ?
+What were <PER>Christopher Columbus</PER> ' three ships ?
+What does Phi Beta Kappa mean ?
+What is nicotine ?
+What is another name for vitamin B1 ?
+Who discovered radium ?
+What are sunspots ?
+When was <LOC>Algeria</LOC> colonized ?
+What baseball team was the first to make numbers part of their uniform ?
+What continent is <LOC>Egypt</LOC> on ?
+What is the capital of <LOC>Mongolia</LOC> ?
+What is nanotechnology ?
+In the late 1700 's British convicts were used to populate which colony ?
+What state is the geographic center of the lower 48 states ?
+What is an obtuse angle ?
+What are polymers ?
+When is hurricane season in the <LOC>Caribbean</LOC> ?
+Where is the <LOC>volcano Mauna Loa</LOC> ?
+What is another astronomic term for the Northern Lights ?
+What peninsula is <LOC>Spain</LOC> part of ?
+When was <PER>Lyndon B. Johnson</PER> born ?
+What is acetaminophen ?
+What state has the least amount of rain per year ?
+Who founded American <ORG>Red Cross</ORG> ?
+What year did the <ORG>Milwaukee Braves</ORG> become the <ORG>Atlanta Braves</ORG> ?
+How fast is alcohol absorbed ?
+When is the summer solstice ?
+What is supernova ?
+Where is the <LOC>Shawnee National Forest</LOC> ?
+What <LOC>U.S.</LOC> state 's motto is `` Live free or Die '' ?
+Where is the <LOC>Lourve</LOC> ?
+When was the first stamp issued ?
+What primary colors do you mix to make orange ?
+How far is <LOC>Pluto</LOC> from the <LOC>sun</LOC> ?
+What body of water are the <LOC>Canary Islands</LOC> in ?
+What is neuropathy ?
+Where is the <LOC>Euphrates River</LOC> ?
+What is cryptography ?
+What is natural gas composed of ?
+Who is the Prime Minister of <LOC>Canada</LOC> ?
+What French ruler was defeated at the battle of Waterloo ?
+What is leukemia ?
+Where did <PER>Howard Hughes</PER> die ?
+What is the birthstone for June ?
+What is the sales tax in <LOC>Minnesota</LOC> ?
+What is the distance in miles from the <LOC>earth</LOC> to the <LOC>sun</LOC> ?
+What is the average life span for a chicken ?
+When was the first <ORG>Wal-Mart</ORG> store opened ?
+What is relative humidity ?
+What city has the zip code of 35824 ?
+What currency is used in <LOC>Algeria</LOC> ?
+Who invented the hula hoop ?
+What was the most popular toy in 1957 ?
+What is pastrami made of ?
+What is the name of the satellite that the <ORG>Soviet Union</ORG> sent into space in 1957 ?
+What city 's newspaper is called `` <ORG>The Enquirer</ORG> '' ?
+Who invented the slinky ?
+What are the animals that don 't have backbones called ?
+What is the melting point of copper ?
+Where is the <LOC>volcano Olympus Mons</LOC> located ?
+Who was the 23rd president of the <LOC>United States</LOC> ?
+What is the average body temperature ?
+What does a defibrillator do ?
+What is the effect of acid rain ?
+What year did the <LOC>United States</LOC> abolish the draft ?
+How fast is the speed of light ?
+What province is <LOC>Montreal</LOC> in ?
+What <LOC>New York City</LOC> structure is also known as the <LOC>Twin Towers</LOC> ?
+What is fungus ?
+What is the most frequently spoken language in the <LOC>Netherlands</LOC> ?
+What is sodium chloride ?
+What are the spots on dominoes called ?
+How many pounds in a ton ?
+What is influenza ?
+What is ozone depletion ?
+What year was the Mona Lisa painted ?
+What does `` Sitting Shiva '' mean ?
+What is the electrical output in <LOC>Madrid</LOC> , <LOC>Spain</LOC> ?
+Which mountain range in <LOC>North America</LOC> stretches from <LOC>Maine</LOC> to <LOC>Georgia</LOC> ?
+What is plastic made of ?
+What is the population of <LOC>Nigeria</LOC> ?
+What does your spleen do ?
+Where is the <LOC>Grand Canyon</LOC> ?
+Who invented the telephone ?
+What year did the <LOC>U.S.</LOC> buy <LOC>Alaska</LOC> ?
+What is the name of the leader of <LOC>Ireland</LOC> ?
+What is phenylalanine ?
+How many gallons of water are there in a cubic foot ?
+What are the two houses of the <ORG>Legislative branch</ORG> ?
+What is sonar ?
+In <LOC>Poland</LOC> , where do most people live ?
+What is phosphorus ?
+What is the location of the <LOC>Sea of Tranquility</LOC> ?
+How fast is sound ?
+What French province is cognac produced in ?
+What is Valentine 's Day ?
+What causes gray hair ?
+What is hypertension ?
+What is bandwidth ?
+What is the longest suspension bridge in the <LOC>U.S.</LOC> ?
+What is a parasite ?
+What is home equity ?
+What do meteorologists do ?
+What is the criterion for being legally blind ?
+Who is the tallest man in the world ?
+What are the twin cities ?
+What did <PER>Edward Binney</PER> and <PER>Howard Smith</PER> invent in 1903 ?
+What is the <LOC>statue of liberty</LOC> made of ?
+What is pilates ?
+What planet is known as the <LOC>`` red '' planet</LOC> ?
+What is the depth of the <LOC>Nile river</LOC> ?
+What is the colorful Korean traditional dress called ?
+What is Mardi Gras ?
+Mexican pesos are worth what in <LOC>U.S.</LOC> dollars ?
+Who was the first African American to play for the <ORG>Brooklyn Dodgers</ORG> ?
+Who was the first Prime Minister of <LOC>Canada</LOC> ?
+How many Admirals are there in the <ORG>U.S. Navy</ORG> ?
+What instrument did <PER>Glenn Miller</PER> play ?
+How old was <PER>Joan of Arc</PER> when she died ?
+What does the word fortnight mean ?
+What is dianetics ?
+What is the capital of <LOC>Ethiopia</LOC> ?
+For how long is an elephant pregnant ?
+How did <PER>Janice Joplin</PER> die ?
+What is the primary language in <LOC>Iceland</LOC> ?
+What is the difference between AM radio stations and FM radio stations ?
+What is osteoporosis ?
+Who was the first woman governor in the <LOC>U.S.</LOC> ?
+What is peyote ?
+What is the esophagus used for ?
+What is viscosity ?
+What year did <LOC>Oklahoma</LOC> become a state ?
+What is the abbreviation for <LOC>Texas</LOC> ?
+What is a mirror made out of ?
+Where on the body is a mortarboard worn ?
+What was <PER>J.F.K.</PER> 's wife 's name ?
+What does I.V. stand for ?
+What is the <LOC>chunnel</LOC> ?
+Where is <PER>Hitler</PER> buried ?
+What are antacids ?
+What is pulmonary fibrosis ?
+What are Quaaludes ?
+What is naproxen ?
+What is strep throat ?
+What is the largest city in the <LOC>U.S.</LOC> ?
+What is foot and mouth disease ?
+What is the life expectancy of a dollar bill ?
+What do you call a professional map drawer ?
+What are Aborigines ?
+What is hybridization ?
+What color is indigo ?
+How old do you have to be in order to rent a car in <LOC>Italy</LOC> ?
+What does a barometer measure ?
+What color is a giraffe 's tongue ?
+What does USPS stand for ?
+What year did the <ORG>NFL</ORG> go on strike ?
+What is solar wind ?
+What date did <PER>Neil Armstrong</PER> land on the moon ?
+When was <LOC>Hiroshima</LOC> bombed ?
+Where is the <LOC>Savannah River</LOC> ?
+Who was the first woman killed in the Vietnam War ?
+What planet has the strongest magnetic field of all the planets ?
+Who is the governor of <LOC>Alaska</LOC> ?
+What year did <PER>Mussolini</PER> seize power in <LOC>Italy</LOC> ?
+What is the capital of <LOC>Persia</LOC> ?
+Where is the <LOC>Eiffel Tower</LOC> ?
+How many hearts does an octopus have ?
+What is pneumonia ?
+What is the deepest lake in the <LOC>US</LOC> ?
+What is a fuel cell ?
+Who was the first <LOC>U.S.</LOC> president to appear on TV ?
+Where is the <LOC>Little League Museum</LOC> ?
+What are the two types of twins ?
+What is the brightest star ?
+What is diabetes ?
+When was President <PER>Kennedy</PER> shot ?
+What is TMJ ?
+What color is yak milk ?
+What date was <PER>Dwight D. Eisenhower</PER> born ?
+What does the technical term ISDN mean ?
+Why is the sun yellow ?
+What is the conversion rate between dollars and pounds ?
+When was <PER>Abraham Lincoln</PER> born ?
+What is the <LOC>Milky Way</LOC> ?
+What is mold ?
+What year was <PER>Mozart</PER> born ?
+What is a group of frogs called ?
+What is the name of <PER>William Penn</PER> 's ship ?
+What is the melting point of gold ?
+What is the street address of the <LOC>White House</LOC> ?
+What is semolina ?
+What fruit is Melba sauce made from ?
+What is <LOC>Ursa Major</LOC> ?
+What is the percentage of water content in the human body ?
+How much does water weigh ?
+What was President <PER>Lyndon Johnson</PER> 's reform program called ?
+What is the murder rate in <LOC>Windsor</LOC> , <LOC>Ontario</LOC> ?
+Who is the only president to serve 2 non-consecutive terms ?
+What is the population of <LOC>Australia</LOC> ?
+Who painted the ceiling of the <LOC>Sistine Chapel</LOC> ?
+Name a stimulant .
+What is the effect of volcanoes on the climate ?
+What year did the Andy Griffith show begin ?
+What is acid rain ?
+What is the date of <LOC>Mexico</LOC> 's independence ?
+What is the location of <LOC>Lake Champlain</LOC> ?
+What is the <LOC>Illinois</LOC> state flower ?
+What is <LOC>Maryland</LOC> 's state bird ?
+What is quicksilver ?
+Who wrote `` The Divine Comedy '' ?
+What is the speed of light ?
+What is the width of a football field ?
+Why in tennis are zero points called love ?
+What kind of dog was <PER>Toto</PER> in the Wizard of Oz ?
+What is a thyroid ?
+What does ciao mean ?
+What is the only artery that carries blue blood from the heart to the lungs ?
+How often does <LOC>Old Faithful</LOC> erupt at <LOC>Yellowstone National Park</LOC> ?
+What is acetic acid ?
+What is the elevation of <LOC>St. Louis</LOC> , <LOC>MO</LOC> ?
+What color does litmus paper turn when it comes into contact with a strong acid ?
+What are the colors of the German flag ?
+What is the <LOC>Moulin Rouge</LOC> ?
+What soviet seaport is on the <LOC>Black Sea</LOC> ?
+What is the atomic weight of silver ?
+What currency do they use in <LOC>Brazil</LOC> ?
+What are pathogens ?
+What is mad cow disease ?
+Name a food high in zinc .
+When did <LOC>North Carolina</LOC> enter the <ORG>union</ORG> ?
+Where do apple snails live ?
+What are ethics ?
+What does CPR stand for ?
+What is an annuity ?
+Who killed <PER>John F. Kennedy</PER> ?
+Who was the first vice president of the <LOC>U.S.</LOC> ?
+What birthstone is turquoise ?
+Who was the first <LOC>US</LOC> President to ride in an automobile to his inauguration ?
+How old was the youngest president of the <LOC>United States</LOC> ?
+When was <PER>Ulysses S. Grant</PER> born ?
+What is Muscular Dystrophy ?
+Who lived in the <LOC>Neuschwanstein castle</LOC> ?
+What is propylene glycol ?
+What is a panic disorder ?
+Who invented the instant Polaroid camera ?
+What is a carcinogen ?
+What is a baby lion called ?
+What is the world 's population ?
+What is nepotism ?
+What is die-casting ?
+What is myopia ?
+What is the sales tax rate in <LOC>New York</LOC> ?
+Developing nations comprise what percentage of the world 's population ?
+What is the fourth highest mountain in the world ?
+What is <PER>Shakespeare</PER> 's nickname ?
+What is the heaviest naturally occurring element ?
+When is Father 's Day ?
+What does the acronym NASA stand for ?
+How long is the <LOC>Columbia River</LOC> in miles ?
+What city 's newspaper is called `` <ORG>The Star</ORG> '' ?
+What is carbon dioxide ?
+Where is the <LOC>Mason/Dixon line</LOC> ?
+When was the Boston tea party ?
+What is metabolism ?
+Which <LOC>U.S.A.</LOC> president appeared on `` Laugh-In '' ?
+What are cigarettes made of ?
+What is the capital of <LOC>Zimbabwe</LOC> ?
+What does NASA stand for ?
+What is the state flower of <LOC>Michigan</LOC> ?
+What are semiconductors ?
+What is nuclear power ?
+What is a tsunami ?
+Who is the congressman from state of <LOC>Texas</LOC> on the <ORG>armed forces committee</ORG> ?
+Who was president in 1913 ?
+When was the first kidney transplant ?
+What are <LOC>Canada</LOC> 's two territories ?
+What was the name of the plane Lindbergh flew solo across the <LOC>Atlantic</LOC> ?
+What is genocide ?
+What continent is <LOC>Argentina</LOC> on ?
+What monastery was raided by Vikings in the late eighth century ?
+What is an earthquake ?
+Where is the tallest roller coaster located ?
+What are enzymes ?
+Who discovered oxygen ?
+What is bangers and mash ?
+What is the name given to the Tiger at <ORG>Louisiana State University</ORG> ?
+Where are the British crown jewels kept ?
+Who was the first person to reach the <LOC>North Pole</LOC> ?
+What is an ulcer ?
+What is vertigo ?
+What is the spirometer test ?
+When is the official first day of summer ?
+What does the abbreviation SOS mean ?
+What is the smallest bird in <LOC>Britain</LOC> ?
+Who invented Trivial Pursuit ?
+What gasses are in the troposphere ?
+Which country has the most water pollution ?
+What is the scientific name for elephant ?
+Who is the actress known for her role in the movie `` Gypsy '' ?
+What breed of hunting dog did the Beverly Hillbillies own ?
+What is the rainiest place on <LOC>Earth</LOC> ?
+Who was the first African American to win the Nobel Prize in literature ?
+When is St. Patrick 's Day ?
+What was <PER>FDR</PER> 's dog 's name ?
+What colors need to be mixed to get the color pink ?
+What is the most popular sport in <LOC>Japan</LOC> ?
+What is the active ingredient in baking soda ?
+When was <PER>Thomas Jefferson</PER> born ?
+How cold should a refrigerator be ?
+When was the telephone invented ?
+What is the most common eye color ?
+Where was the first golf course in the <LOC>United States</LOC> ?
+What is schizophrenia ?
+What is angiotensin ?
+What did <PER>Jesse Jackson</PER> organize ?
+What is <LOC>New York</LOC> 's state bird ?
+What is the <LOC>National Park</LOC> in <LOC>Utah</LOC> ?
+What is <PER>Susan B. Anthony</PER> 's birthday ?
+In which state would you find the <LOC>Catskill Mountains</LOC> ?
+What do you call a word that is spelled the same backwards and forwards ?
+What are pediatricians ?
+What chain store is headquartered in <LOC>Bentonville</LOC> , <LOC>Arkansas</LOC> ?
+What are solar cells ?
+What is compounded interest ?
+What are capers ?
+What is an antigen ?
+What currency does <LOC>Luxembourg</LOC> use ?
+What is the population of <LOC>Venezuela</LOC> ?
+What type of polymer is used for bulletproof vests ?
+What currency does <LOC>Argentina</LOC> use ?
+What is a thermometer ?
+What Canadian city has the largest population ?
+What color are crickets ?
+Which country gave <LOC>New York</LOC> the <LOC>Statue of Liberty</LOC> ?
+What was the name of the first <LOC>U.S.</LOC> satellite sent into space ?
+What precious stone is a form of pure carbon ?
+What kind of gas is in a fluorescent bulb ?
+What is rheumatoid arthritis ?
+What river runs through <LOC>Rowe</LOC> , <LOC>Italy</LOC> ?
+What is cerebral palsy ?
+What city is also known as `` <LOC>The Gateway to the West</LOC> '' ?
+How far away is the <LOC>moon</LOC> ?
+What is the source of natural gas ?
+In what spacecraft did <LOC>U.S.</LOC> astronaut <PER>Alan Shepard</PER> make his historic 1961 flight ?
+What is pectin ?
+What is bio-diversity ?
+What 's the easiest way to remove wallpaper ?
+What year did the Titanic start on its journey ?
+How much of an apple is water ?
+Who was the 22nd President of the <LOC>US</LOC> ?
+What is the money they use in <LOC>Zambia</LOC> ?
+How many feet in a mile ?
+What is the birthstone of October ?
+What is e-coli ?
