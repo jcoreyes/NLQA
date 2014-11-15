@@ -1,0 +1,500 @@
+NUMERIC_DISTANCE How far is it from Denver to Aspen ?
+LOCATION_CITY What county is Modesto , California in ?
+HUMAN_DESCRIPTION Who was Galileo ?
+DESCRIPTION_DEFINITION What is an atom ?
+NUMERIC_DATE When did Hawaii become a state ?
+NUMERIC_DISTANCE How tall is the Sears Building ?
+HUMAN_GROUP George Bush purchased a small interest in which baseball team ?
+ENTITY_PLANT What is Australia 's national flower ?
+DESCRIPTION_REASON Why does the moon turn orange ?
+DESCRIPTION_DEFINITION What is autism ?
+LOCATION_CITY What city had a world fair in 1900 ?
+HUMAN_INDIVIDUAL What person 's head is on a dime ?
+NUMERIC_WEIGHT What is the average weight of a Yellow Labrador ?
+HUMAN_INDIVIDUAL Who was the first man to fly across the Pacific Ocean ?
+NUMERIC_DATE When did Idaho become a state ?
+NUMERIC_OTHER What is the life expectancy for crickets ?
+ENTITY_SUBSTANCE What metal has the highest melting point ?
+HUMAN_INDIVIDUAL Who developed the vaccination against polio ?
+DESCRIPTION_DEFINITION What is epilepsy ?
+NUMERIC_DATE What year did the Titanic sink ?
+HUMAN_INDIVIDUAL Who was the first American to walk in space ?
+DESCRIPTION_DEFINITION What is a biosphere ?
+LOCATION_OTHER What river in the US is known as the Big Muddy ?
+DESCRIPTION_DEFINITION What is bipolar disorder ?
+DESCRIPTION_DEFINITION What is cholesterol ?
+HUMAN_INDIVIDUAL Who developed the Macintosh computer ?
+DESCRIPTION_DEFINITION What is caffeine ?
+LOCATION_OTHER What imaginary line is halfway between the North and South Poles ?
+LOCATION_OTHER Where is John Wayne airport ?
+LOCATION_OTHER What hemisphere is the Philippines in ?
+NUMERIC_SPEED What is the average speed of the horses at the Kentucky Derby ?
+LOCATION_MOUNTAIN Where are the Rocky Mountains ?
+DESCRIPTION_DEFINITION What are invertebrates ?
+NUMERIC_TEMPERATURE What is the temperature at the center of the earth ?
+NUMERIC_DATE When did John F. Kennedy get elected as President ?
+NUMERIC_PERIOD How old was Elvis Presley when he died ?
+LOCATION_OTHER Where is the Orinoco River ?
+NUMERIC_DISTANCE How far is the service line from the net in tennis ?
+NUMERIC_COUNT How much fiber should you have per day ?
+NUMERIC_COUNT How many Great Lakes are there ?
+ENTITY_PLANT Material called linen is made from what plant ?
+DESCRIPTION_DEFINITION What is Teflon ?
+DESCRIPTION_DEFINITION What is amitriptyline ?
+DESCRIPTION_DEFINITION What is a shaman ?
+ENTITY_ANIMAL What is the proper name for a female walrus ?
+ENTITY_ANIMAL What is a group of turkeys called ?
+NUMERIC_PERIOD How long did Rip Van Winkle sleep ?
+DESCRIPTION_DEFINITION What are triglycerides ?
+NUMERIC_COUNT How many liters in a gallon ?
+HUMAN_GROUP What is the name of the chocolate company in San Francisco ?
+DESCRIPTION_DEFINITION What are amphibians ?
+HUMAN_INDIVIDUAL Who discovered x-rays ?
+HUMAN_INDIVIDUAL Which comedian 's signature line is `` Can we talk '' ?
+DESCRIPTION_DEFINITION What is fibromyalgia ?
+DESCRIPTION_DESCRIPTION What is done with worn or outdated flags ?
+DESCRIPTION_DEFINITION What does cc in engines mean ?
+NUMERIC_DATE When did Elvis Presley die ?
+LOCATION_CITY What is the capital of Yugoslavia ?
+LOCATION_CITY Where is Milan ?
+NUMERIC_SPEED What is the speed hummingbirds fly ?
+LOCATION_CITY What is the oldest city in the United States ?
+HUMAN_INDIVIDUAL What was W.C. Fields ' real name ?
+LOCATION_OTHER What river flows between Fargo , North Dakota and Moorhead , Minnesota ?
+ENTITY_FOOD What do bats eat ?
+LOCATION_STATE What state did the Battle of Bighorn take place in ?
+HUMAN_DESCRIPTION Who was Abraham Lincoln ?
+ENTITY_TERM What do you call a newborn kangaroo ?
+DESCRIPTION_DEFINITION What are spider veins ?
+NUMERIC_DATE What day and month did John Lennon die ?
+LOCATION_OTHER What strait separates North America from Asia ?
+NUMERIC_OTHER What is the population of Seattle ?
+NUMERIC_MONEY How much was a ticket for the Titanic ?
+LOCATION_CITY What is the largest city in the world ?
+HUMAN_INDIVIDUAL What American composer wrote the music for `` West Side Story '' ?
+LOCATION_OTHER Where is the Mall of the America ?
+DESCRIPTION_DEFINITION What is the pH scale ?
+ENTITY_CURRENCY What type of currency is used in Australia ?
+NUMERIC_DISTANCE How tall is the Gateway Arch in St. Louis , MO ?
+NUMERIC_WEIGHT How much does the human adult female brain weigh ?
+HUMAN_INDIVIDUAL Who was the first governor of Alaska ?
+DESCRIPTION_DEFINITION What is a prism ?
+NUMERIC_DATE When was the first liver transplant ?
+HUMAN_INDIVIDUAL Who was elected president of South Africa in 1994 ?
+NUMERIC_OTHER What is the population of China ?
+NUMERIC_DATE When was Rosa Parks born ?
+DESCRIPTION_REASON Why is a ladybug helpful ?
+DESCRIPTION_DEFINITION What is amoxicillin ?
+HUMAN_INDIVIDUAL Who was the first female United States Representative ?
+DESCRIPTION_DEFINITION What are xerophytes ?
+LOCATION_COUNTRY What country did Ponce de Leon come from ?
+ENTITY_EVENT The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?
+DESCRIPTION_DEFINITION What is desktop publishing ?
+NUMERIC_TEMPERATURE What is the temperature of the sun 's surface ?
+NUMERIC_DATE What year did Canada join the United Nations ?
+HUMAN_GROUP What is the oldest university in the US ?
+LOCATION_OTHER Where is Prince Edward Island ?
+NUMERIC_DATE Mercury , what year was it discovered ?
+DESCRIPTION_DEFINITION What is cryogenics ?
+DESCRIPTION_DEFINITION What are coral reefs ?
+ENTITY_OTHER What is the longest major league baseball-winning streak ?
+DESCRIPTION_DEFINITION What is neurology ?
+HUMAN_INDIVIDUAL Who invented the calculator ?
+DESCRIPTION_MANNER How do you measure earthquakes ?
+HUMAN_DESCRIPTION Who is Duke Ellington ?
+LOCATION_CITY What county is Phoenix , AZ in ?
+DESCRIPTION_DEFINITION What is a micron ?
+NUMERIC_TEMPERATURE The sun 's core , what is the temperature ?
+ENTITY_ANIMAL What is the Ohio state bird ?
+NUMERIC_DATE When were William Shakespeare 's twins born ?
+LOCATION_OTHER What is the highest dam in the U.S. ?
+ENTITY_COLOR What color is a poison arrow frog ?
+DESCRIPTION_DEFINITION What is acupuncture ?
+NUMERIC_DISTANCE What is the length of the coastline of the state of Alaska ?
+HUMAN_INDIVIDUAL What is the name of Neil Armstrong 's wife ?
+ENTITY_PLANT What is Hawaii 's state flower ?
+HUMAN_INDIVIDUAL Who won Ms. American in 1989 ?
+NUMERIC_DATE When did the Hindenberg crash ?
+ENTITY_SUBSTANCE What mineral helps prevent osteoporosis ?
+NUMERIC_DATE What was the last year that the Chicago Cubs won the World Series ?
+LOCATION_OTHER Where is Perth ?
+NUMERIC_DATE What year did WWII begin ?
+NUMERIC_DISTANCE What is the diameter of a golf ball ?
+DESCRIPTION_DEFINITION What is an eclipse ?
+HUMAN_INDIVIDUAL Who discovered America ?
+NUMERIC_DISTANCE What is the earth 's diameter ?
+HUMAN_INDIVIDUAL Which president was unmarried ?
+NUMERIC_DISTANCE How wide is the Milky Way galaxy ?
+NUMERIC_DATE During which season do most thunderstorms occur ?
+DESCRIPTION_DEFINITION What is Wimbledon ?
+NUMERIC_PERIOD What is the gestation period for a cat ?
+NUMERIC_DISTANCE How far is a nautical mile ?
+HUMAN_INDIVIDUAL Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?
+DESCRIPTION_DEFINITION What does target heart rate mean ?
+ENTITY_PRODUCT What was the first satellite to go into space ?
+DESCRIPTION_DEFINITION What is foreclosure ?
+ENTITY_OTHER What is the major fault line near Kentucky ?
+LOCATION_OTHER Where is the Holland Tunnel ?
+HUMAN_INDIVIDUAL Who wrote the hymn `` Amazing Grace '' ?
+HUMAN_TITLE What position did Willie Davis play in baseball ?
+DESCRIPTION_DEFINITION What are platelets ?
+DESCRIPTION_DEFINITION What is severance pay ?
+ENTITY_ANIMAL What is the name of Roy Roger 's dog ?
+LOCATION_OTHER Where are the National Archives ?
+ENTITY_ANIMAL What is a baby turkey called ?
+DESCRIPTION_DEFINITION What is poliomyelitis ?
+ENTITY_BODY What is the longest bone in the human body ?
+HUMAN_INDIVIDUAL Who is a German philosopher ?
+ENTITY_VEHICLE What were Christopher Columbus ' three ships ?
+DESCRIPTION_DEFINITION What does Phi Beta Kappa mean ?
+DESCRIPTION_DEFINITION What is nicotine ?
+ENTITY_TERM What is another name for vitamin B1 ?
+HUMAN_INDIVIDUAL Who discovered radium ?
+DESCRIPTION_DEFINITION What are sunspots ?
+NUMERIC_DATE When was Algeria colonized ?
+HUMAN_GROUP What baseball team was the first to make numbers part of their uniform ?
+LOCATION_OTHER What continent is Egypt on ?
+LOCATION_CITY What is the capital of Mongolia ?
+DESCRIPTION_DEFINITION What is nanotechnology ?
+LOCATION_OTHER In the late 1700 's British convicts were used to populate which colony ?
+LOCATION_STATE What state is the geographic center of the lower 48 states ?
+DESCRIPTION_DEFINITION What is an obtuse angle ?
+DESCRIPTION_DEFINITION What are polymers ?
+NUMERIC_DATE When is hurricane season in the Caribbean ?
+LOCATION_OTHER Where is the volcano Mauna Loa ?
+ENTITY_TERM What is another astronomic term for the Northern Lights ?
+LOCATION_OTHER What peninsula is Spain part of ?
+NUMERIC_DATE When was Lyndon B. Johnson born ?
+DESCRIPTION_DEFINITION What is acetaminophen ?
+LOCATION_STATE What state has the least amount of rain per year ?
+HUMAN_INDIVIDUAL Who founded American Red Cross ?
+NUMERIC_DATE What year did the Milwaukee Braves become the Atlanta Braves ?
+NUMERIC_SPEED How fast is alcohol absorbed ?
+NUMERIC_DATE When is the summer solstice ?
+DESCRIPTION_DEFINITION What is supernova ?
+LOCATION_OTHER Where is the Shawnee National Forest ?
+LOCATION_STATE What U.S. state 's motto is `` Live free or Die '' ?
+LOCATION_OTHER Where is the Lourve ?
+NUMERIC_DATE When was the first stamp issued ?
+ENTITY_COLOR What primary colors do you mix to make orange ?
+NUMERIC_DISTANCE How far is Pluto from the sun ?
+LOCATION_OTHER What body of water are the Canary Islands in ?
+DESCRIPTION_DEFINITION What is neuropathy ?
+LOCATION_OTHER Where is the Euphrates River ?
+DESCRIPTION_DEFINITION What is cryptography ?
+ENTITY_SUBSTANCE What is natural gas composed of ?
+HUMAN_INDIVIDUAL Who is the Prime Minister of Canada ?
+HUMAN_INDIVIDUAL What French ruler was defeated at the battle of Waterloo ?
+DESCRIPTION_DEFINITION What is leukemia ?
+LOCATION_OTHER Where did Howard Hughes die ?
+ENTITY_SUBSTANCE What is the birthstone for June ?
+ENTITY_OTHER What is the sales tax in Minnesota ?
+NUMERIC_DISTANCE What is the distance in miles from the earth to the sun ?
+NUMERIC_PERIOD What is the average life span for a chicken ?
+NUMERIC_DATE When was the first Wal-Mart store opened ?
+DESCRIPTION_DEFINITION What is relative humidity ?
+LOCATION_CITY What city has the zip code of 35824 ?
+ENTITY_CURRENCY What currency is used in Algeria ?
+HUMAN_INDIVIDUAL Who invented the hula hoop ?
+ENTITY_PRODUCT What was the most popular toy in 1957 ?
+ENTITY_SUBSTANCE What is pastrami made of ?
+ENTITY_PRODUCT What is the name of the satellite that the Soviet Union sent into space in 1957 ?
+LOCATION_CITY What city 's newspaper is called `` The Enquirer '' ?
+HUMAN_INDIVIDUAL Who invented the slinky ?
+ENTITY_ANIMAL What are the animals that don 't have backbones called ?
+NUMERIC_OTHER What is the melting point of copper ?
+LOCATION_OTHER Where is the volcano Olympus Mons located ?
+HUMAN_INDIVIDUAL Who was the 23rd president of the United States ?
+NUMERIC_TEMPERATURE What is the average body temperature ?
+DESCRIPTION_DESCRIPTION What does a defibrillator do ?
+DESCRIPTION_DESCRIPTION What is the effect of acid rain ?
+NUMERIC_DATE What year did the United States abolish the draft ?
+NUMERIC_SPEED How fast is the speed of light ?
+LOCATION_STATE What province is Montreal in ?
+LOCATION_OTHER What New York City structure is also known as the Twin Towers ?
+DESCRIPTION_DEFINITION What is fungus ?
+ENTITY_LANGUAGE What is the most frequently spoken language in the Netherlands ?
+DESCRIPTION_DEFINITION What is sodium chloride ?
+ENTITY_TERM What are the spots on dominoes called ?
+NUMERIC_COUNT How many pounds in a ton ?
+DESCRIPTION_DEFINITION What is influenza ?
+DESCRIPTION_DEFINITION What is ozone depletion ?
+NUMERIC_DATE What year was the Mona Lisa painted ?
+DESCRIPTION_DEFINITION What does `` Sitting Shiva '' mean ?
+ENTITY_OTHER What is the electrical output in Madrid , Spain ?
+LOCATION_MOUNTAIN Which mountain range in North America stretches from Maine to Georgia ?
+ENTITY_SUBSTANCE What is plastic made of ?
+NUMERIC_OTHER What is the population of Nigeria ?
+DESCRIPTION_DESCRIPTION What does your spleen do ?
+LOCATION_OTHER Where is the Grand Canyon ?
+HUMAN_INDIVIDUAL Who invented the telephone ?
+NUMERIC_DATE What year did the U.S. buy Alaska ?
+HUMAN_INDIVIDUAL What is the name of the leader of Ireland ?
+DESCRIPTION_DEFINITION What is phenylalanine ?
+NUMERIC_COUNT How many gallons of water are there in a cubic foot ?
+ENTITY_OTHER What are the two houses of the Legislative branch ?
+DESCRIPTION_DEFINITION What is sonar ?
+LOCATION_OTHER In Poland , where do most people live ?
+DESCRIPTION_DEFINITION What is phosphorus ?
+LOCATION_OTHER What is the location of the Sea of Tranquility ?
+NUMERIC_SPEED How fast is sound ?
+LOCATION_STATE What French province is cognac produced in ?
+DESCRIPTION_DEFINITION What is Valentine 's Day ?
+DESCRIPTION_REASON What causes gray hair ?
+DESCRIPTION_DEFINITION What is hypertension ?
+DESCRIPTION_DEFINITION What is bandwidth ?
+LOCATION_OTHER What is the longest suspension bridge in the U.S. ?
+DESCRIPTION_DEFINITION What is a parasite ?
+DESCRIPTION_DEFINITION What is home equity ?
+DESCRIPTION_DESCRIPTION What do meteorologists do ?
+ENTITY_OTHER What is the criterion for being legally blind ?
+HUMAN_INDIVIDUAL Who is the tallest man in the world ?
+LOCATION_CITY What are the twin cities ?
+ENTITY_OTHER What did Edward Binney and Howard Smith invent in 1903 ?
+ENTITY_SUBSTANCE What is the statue of liberty made of ?
+DESCRIPTION_DEFINITION What is pilates ?
+LOCATION_OTHER What planet is known as the `` red '' planet ?
+NUMERIC_DISTANCE What is the depth of the Nile river ?
+ENTITY_TERM What is the colorful Korean traditional dress called ?
+DESCRIPTION_DEFINITION What is Mardi Gras ?
+NUMERIC_MONEY Mexican pesos are worth what in U.S. dollars ?
+HUMAN_INDIVIDUAL Who was the first African American to play for the Brooklyn Dodgers ?
+HUMAN_INDIVIDUAL Who was the first Prime Minister of Canada ?
+NUMERIC_COUNT How many Admirals are there in the U.S. Navy ?
+ENTITY_INSTRUMENT What instrument did Glenn Miller play ?
+NUMERIC_PERIOD How old was Joan of Arc when she died ?
+DESCRIPTION_DEFINITION What does the word fortnight mean ?
+DESCRIPTION_DEFINITION What is dianetics ?
+LOCATION_CITY What is the capital of Ethiopia ?
+NUMERIC_PERIOD For how long is an elephant pregnant ?
+DESCRIPTION_MANNER How did Janice Joplin die ?
+ENTITY_LANGUAGE What is the primary language in Iceland ?
+DESCRIPTION_DESCRIPTION What is the difference between AM radio stations and FM radio stations ?
+DESCRIPTION_DEFINITION What is osteoporosis ?
+HUMAN_INDIVIDUAL Who was the first woman governor in the U.S. ?
+DESCRIPTION_DEFINITION What is peyote ?
+DESCRIPTION_REASON What is the esophagus used for ?
+DESCRIPTION_DEFINITION What is viscosity ?
+NUMERIC_DATE What year did Oklahoma become a state ?
+ABBREVIATION_ABBREVIATION What is the abbreviation for Texas ?
+ENTITY_SUBSTANCE What is a mirror made out of ?
+LOCATION_OTHER Where on the body is a mortarboard worn ?
+HUMAN_INDIVIDUAL What was J.F.K. 's wife 's name ?
+ABBREVIATION_EXPANSION What does I.V. stand for ?
+DESCRIPTION_DEFINITION What is the chunnel ?
+LOCATION_OTHER Where is Hitler buried ?
+DESCRIPTION_DEFINITION What are antacids ?
+DESCRIPTION_DEFINITION What is pulmonary fibrosis ?
+DESCRIPTION_DEFINITION What are Quaaludes ?
+DESCRIPTION_DEFINITION What is naproxen ?
+DESCRIPTION_DEFINITION What is strep throat ?
+LOCATION_CITY What is the largest city in the U.S. ?
+ENTITY_MEDICINE What is foot and mouth disease ?
+NUMERIC_OTHER What is the life expectancy of a dollar bill ?
+ENTITY_TERM What do you call a professional map drawer ?
+DESCRIPTION_DEFINITION What are Aborigines ?
+DESCRIPTION_DEFINITION What is hybridization ?
+ENTITY_COLOR What color is indigo ?
+NUMERIC_PERIOD How old do you have to be in order to rent a car in Italy ?
+ENTITY_OTHER What does a barometer measure ?
+ENTITY_COLOR What color is a giraffe 's tongue ?
+ABBREVIATION_EXPANSION What does USPS stand for ?
+NUMERIC_DATE What year did the NFL go on strike ?
+DESCRIPTION_DEFINITION What is solar wind ?
+NUMERIC_DATE What date did Neil Armstrong land on the moon ?
+NUMERIC_DATE When was Hiroshima bombed ?
+LOCATION_OTHER Where is the Savannah River ?
+HUMAN_INDIVIDUAL Who was the first woman killed in the Vietnam War ?
+LOCATION_OTHER What planet has the strongest magnetic field of all the planets ?
+HUMAN_INDIVIDUAL Who is the governor of Alaska ?
+NUMERIC_DATE What year did Mussolini seize power in Italy ?
+LOCATION_CITY What is the capital of Persia ?
+LOCATION_OTHER Where is the Eiffel Tower ?
+NUMERIC_COUNT How many hearts does an octopus have ?
+DESCRIPTION_DEFINITION What is pneumonia ?
+LOCATION_OTHER What is the deepest lake in the US ?
+DESCRIPTION_DEFINITION What is a fuel cell ?
+HUMAN_INDIVIDUAL Who was the first U.S. president to appear on TV ?
+LOCATION_OTHER Where is the Little League Museum ?
+ENTITY_OTHER What are the two types of twins ?
+LOCATION_OTHER What is the brightest star ?
+DESCRIPTION_DEFINITION What is diabetes ?
+NUMERIC_DATE When was President Kennedy shot ?
+ABBREVIATION_EXPANSION What is TMJ ?
+ENTITY_COLOR What color is yak milk ?
+NUMERIC_DATE What date was Dwight D. Eisenhower born ?
+ABBREVIATION_EXPANSION What does the technical term ISDN mean ?
+DESCRIPTION_REASON Why is the sun yellow ?
+NUMERIC_MONEY What is the conversion rate between dollars and pounds ?
+NUMERIC_DATE When was Abraham Lincoln born ?
+DESCRIPTION_DEFINITION What is the Milky Way ?
+DESCRIPTION_DEFINITION What is mold ?
+NUMERIC_DATE What year was Mozart born ?
+ENTITY_ANIMAL What is a group of frogs called ?
+ENTITY_VEHICLE What is the name of William Penn 's ship ?
+NUMERIC_OTHER What is the melting point of gold ?
+LOCATION_OTHER What is the street address of the White House ?
+DESCRIPTION_DEFINITION What is semolina ?
+ENTITY_FOOD What fruit is Melba sauce made from ?
+DESCRIPTION_DEFINITION What is Ursa Major ?
+NUMERIC_PERCENT What is the percentage of water content in the human body ?
+NUMERIC_WEIGHT How much does water weigh ?
+ENTITY_EVENT What was President Lyndon Johnson 's reform program called ?
+NUMERIC_PERCENT What is the murder rate in Windsor , Ontario ?
+HUMAN_INDIVIDUAL Who is the only president to serve 2 non-consecutive terms ?
+NUMERIC_OTHER What is the population of Australia ?
+HUMAN_INDIVIDUAL Who painted the ceiling of the Sistine Chapel ?
+ENTITY_MEDICINE Name a stimulant .
+DESCRIPTION_DESCRIPTION What is the effect of volcanoes on the climate ?
+NUMERIC_DATE What year did the Andy Griffith show begin ?
+DESCRIPTION_DEFINITION What is acid rain ?
+NUMERIC_DATE What is the date of Mexico 's independence ?
+LOCATION_OTHER What is the location of Lake Champlain ?
+ENTITY_PLANT What is the Illinois state flower ?
+ENTITY_ANIMAL What is Maryland 's state bird ?
+DESCRIPTION_DEFINITION What is quicksilver ?
+HUMAN_INDIVIDUAL Who wrote `` The Divine Comedy '' ?
+NUMERIC_SPEED What is the speed of light ?
+NUMERIC_DISTANCE What is the width of a football field ?
+DESCRIPTION_REASON Why in tennis are zero points called love ?
+ENTITY_ANIMAL What kind of dog was Toto in the Wizard of Oz ?
+DESCRIPTION_DEFINITION What is a thyroid ?
+DESCRIPTION_DEFINITION What does ciao mean ?
+ENTITY_BODY What is the only artery that carries blue blood from the heart to the lungs ?
+NUMERIC_OTHER How often does Old Faithful erupt at Yellowstone National Park ?
+DESCRIPTION_DEFINITION What is acetic acid ?
+NUMERIC_DISTANCE What is the elevation of St. Louis , MO ?
+ENTITY_COLOR What color does litmus paper turn when it comes into contact with a strong acid ?
+ENTITY_COLOR What are the colors of the German flag ?
+DESCRIPTION_DEFINITION What is the Moulin Rouge ?
+LOCATION_OTHER What soviet seaport is on the Black Sea ?
+NUMERIC_WEIGHT What is the atomic weight of silver ?
+ENTITY_CURRENCY What currency do they use in Brazil ?
+DESCRIPTION_DEFINITION What are pathogens ?
+DESCRIPTION_DEFINITION What is mad cow disease ?
+ENTITY_FOOD Name a food high in zinc .
+NUMERIC_DATE When did North Carolina enter the union ?
+LOCATION_OTHER Where do apple snails live ?
+DESCRIPTION_DEFINITION What are ethics ?
+ABBREVIATION_EXPANSION What does CPR stand for ?
+DESCRIPTION_DEFINITION What is an annuity ?
+HUMAN_INDIVIDUAL Who killed John F. Kennedy ?
+HUMAN_INDIVIDUAL Who was the first vice president of the U.S. ?
+ENTITY_SUBSTANCE What birthstone is turquoise ?
+HUMAN_INDIVIDUAL Who was the first US President to ride in an automobile to his inauguration ?
+NUMERIC_PERIOD How old was the youngest president of the United States ?
+NUMERIC_DATE When was Ulysses S. Grant born ?
+DESCRIPTION_DEFINITION What is Muscular Dystrophy ?
+HUMAN_INDIVIDUAL Who lived in the Neuschwanstein castle ?
+DESCRIPTION_DEFINITION What is propylene glycol ?
+DESCRIPTION_DEFINITION What is a panic disorder ?
+HUMAN_INDIVIDUAL Who invented the instant Polaroid camera ?
+DESCRIPTION_DEFINITION What is a carcinogen ?
+ENTITY_ANIMAL What is a baby lion called ?
+NUMERIC_OTHER What is the world 's population ?
+DESCRIPTION_DEFINITION What is nepotism ?
+DESCRIPTION_DEFINITION What is die-casting ?
+DESCRIPTION_DEFINITION What is myopia ?
+NUMERIC_OTHER What is the sales tax rate in New York ?
+NUMERIC_PERCENT Developing nations comprise what percentage of the world 's population ?
+LOCATION_MOUNTAIN What is the fourth highest mountain in the world ?
+HUMAN_INDIVIDUAL What is Shakespeare 's nickname ?
+ENTITY_SUBSTANCE What is the heaviest naturally occurring element ?
+NUMERIC_DATE When is Father 's Day ?
+ABBREVIATION_EXPANSION What does the acronym NASA stand for ?
+NUMERIC_DISTANCE How long is the Columbia River in miles ?
+LOCATION_CITY What city 's newspaper is called `` The Star '' ?
+DESCRIPTION_DEFINITION What is carbon dioxide ?
+LOCATION_OTHER Where is the Mason/Dixon line ?
+NUMERIC_DATE When was the Boston tea party ?
+DESCRIPTION_DEFINITION What is metabolism ?
+HUMAN_INDIVIDUAL Which U.S.A. president appeared on `` Laugh-In '' ?
+ENTITY_SUBSTANCE What are cigarettes made of ?
+LOCATION_CITY What is the capital of Zimbabwe ?
+ABBREVIATION_EXPANSION What does NASA stand for ?
+ENTITY_PLANT What is the state flower of Michigan ?
+DESCRIPTION_DEFINITION What are semiconductors ?
+DESCRIPTION_DEFINITION What is nuclear power ?
+DESCRIPTION_DEFINITION What is a tsunami ?
+HUMAN_INDIVIDUAL Who is the congressman from state of Texas on the armed forces committee ?
+HUMAN_INDIVIDUAL Who was president in 1913 ?
+NUMERIC_DATE When was the first kidney transplant ?
+LOCATION_OTHER What are Canada 's two territories ?
+ENTITY_VEHICLE What was the name of the plane Lindbergh flew solo across the Atlantic ?
+DESCRIPTION_DEFINITION What is genocide ?
+LOCATION_OTHER What continent is Argentina on ?
+ENTITY_OTHER What monastery was raided by Vikings in the late eighth century ?
+DESCRIPTION_DEFINITION What is an earthquake ?
+LOCATION_OTHER Where is the tallest roller coaster located ?
+DESCRIPTION_DEFINITION What are enzymes ?
+HUMAN_INDIVIDUAL Who discovered oxygen ?
+DESCRIPTION_DEFINITION What is bangers and mash ?
+ENTITY_ANIMAL What is the name given to the Tiger at Louisiana State University ?
+LOCATION_OTHER Where are the British crown jewels kept ?
+HUMAN_INDIVIDUAL Who was the first person to reach the North Pole ?
+DESCRIPTION_DEFINITION What is an ulcer ?
+DESCRIPTION_DEFINITION What is vertigo ?
+DESCRIPTION_DEFINITION What is the spirometer test ?
+NUMERIC_DATE When is the official first day of summer ?
+ABBREVIATION_EXPANSION What does the abbreviation SOS mean ?
+ENTITY_ANIMAL What is the smallest bird in Britain ?
+HUMAN_INDIVIDUAL Who invented Trivial Pursuit ?
+ENTITY_SUBSTANCE What gasses are in the troposphere ?
+LOCATION_COUNTRY Which country has the most water pollution ?
+ENTITY_ANIMAL What is the scientific name for elephant ?
+HUMAN_INDIVIDUAL Who is the actress known for her role in the movie `` Gypsy '' ?
+ENTITY_ANIMAL What breed of hunting dog did the Beverly Hillbillies own ?
+LOCATION_OTHER What is the rainiest place on Earth ?
+HUMAN_INDIVIDUAL Who was the first African American to win the Nobel Prize in literature ?
+NUMERIC_DATE When is St. Patrick 's Day ?
+ENTITY_ANIMAL What was FDR 's dog 's name ?
+ENTITY_COLOR What colors need to be mixed to get the color pink ?
+ENTITY_SPORT What is the most popular sport in Japan ?
+ENTITY_FOOD What is the active ingredient in baking soda ?
+NUMERIC_DATE When was Thomas Jefferson born ?
+NUMERIC_TEMPERATURE How cold should a refrigerator be ?
+NUMERIC_DATE When was the telephone invented ?
+ENTITY_COLOR What is the most common eye color ?
+LOCATION_OTHER Where was the first golf course in the United States ?
+DESCRIPTION_DEFINITION What is schizophrenia ?
+DESCRIPTION_DEFINITION What is angiotensin ?
+HUMAN_GROUP What did Jesse Jackson organize ?
+ENTITY_ANIMAL What is New York 's state bird ?
+LOCATION_OTHER What is the National Park in Utah ?
+NUMERIC_DATE What is Susan B. Anthony 's birthday ?
+LOCATION_STATE In which state would you find the Catskill Mountains ?
+ENTITY_TERM What do you call a word that is spelled the same backwards and forwards ?
+DESCRIPTION_DEFINITION What are pediatricians ?
+HUMAN_GROUP What chain store is headquartered in Bentonville , Arkansas ?
+DESCRIPTION_DEFINITION What are solar cells ?
+DESCRIPTION_DEFINITION What is compounded interest ?
+DESCRIPTION_DEFINITION What are capers ?
+DESCRIPTION_DEFINITION What is an antigen ?
+ENTITY_CURRENCY What currency does Luxembourg use ?
+NUMERIC_OTHER What is the population of Venezuela ?
+ENTITY_OTHER What type of polymer is used for bulletproof vests ?
+ENTITY_CURRENCY What currency does Argentina use ?
+DESCRIPTION_DEFINITION What is a thermometer ?
+LOCATION_CITY What Canadian city has the largest population ?
+ENTITY_COLOR What color are crickets ?
+LOCATION_COUNTRY Which country gave New York the Statue of Liberty ?
+ENTITY_PRODUCT What was the name of the first U.S. satellite sent into space ?
+ENTITY_SUBSTANCE What precious stone is a form of pure carbon ?
+ENTITY_SUBSTANCE What kind of gas is in a fluorescent bulb ?
+DESCRIPTION_DEFINITION What is rheumatoid arthritis ?
+LOCATION_OTHER What river runs through Rowe , Italy ?
+DESCRIPTION_DEFINITION What is cerebral palsy ?
+LOCATION_CITY What city is also known as `` The Gateway to the West '' ?
+NUMERIC_DISTANCE How far away is the moon ?
+ENTITY_OTHER What is the source of natural gas ?
+ENTITY_VEHICLE In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?
+DESCRIPTION_DEFINITION What is pectin ?
+DESCRIPTION_DEFINITION What is bio-diversity ?
+ENTITY_TECHNIQUE What 's the easiest way to remove wallpaper ?
+NUMERIC_DATE What year did the Titanic start on its journey ?
+NUMERIC_COUNT How much of an apple is water ?
+HUMAN_INDIVIDUAL Who was the 22nd President of the US ?
+ENTITY_CURRENCY What is the money they use in Zambia ?
+NUMERIC_COUNT How many feet in a mile ?
+ENTITY_SUBSTANCE What is the birthstone of October ?
+DESCRIPTION_DEFINITION What is e-coli ?

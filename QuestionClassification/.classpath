@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jwnl-1.4r2.jar"/>
+	<classpathentry kind="lib" path="lib/berkeley-parser-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/libsvm_3.11.jar"/>
+	<classpathentry kind="lib" path="lib/lingpipe-4.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
