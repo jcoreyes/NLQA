@@ -20,8 +20,11 @@ import datetime
 import quepy
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+## Add path to quepy api app for install the quepy app
+import os
+os.sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-dbpedia = quepy.install("app")
+#dbpedia = quepy.install("app")
 DEFAULT_RESPONSE = "It depends."
 #quepy.set_loglevel("DEBUG")
 
@@ -130,6 +133,7 @@ def wikipedia2dbpedia(wikipedia_url):
         return results["results"]["bindings"][0]["url"]["value"]
 
 def query(question):
+	dbpedia = quepy.install("app")
         print_handlers = {
         "define": print_define,
         "enum": print_enum,
@@ -167,10 +171,9 @@ def query(question):
 
 
 
-if __name__ == "__main__":
-#def main():
-    default_questions = [
-        "What is a car?",
+#if __name__ == "__main__":
+def main():
+    default_questions = [ "What is a car?",
         "Who is Tom Cruise?",
         "Who is George Lucas?",
         "Who is Mirtha Legrand?",
