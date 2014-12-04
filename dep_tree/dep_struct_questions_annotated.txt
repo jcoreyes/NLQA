@@ -1,0 +1,110 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (NNP President))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNP United) (NNPS States))
+            (PP (IN of)
+              (NP (NNP America)))))))
+    (. ?)))
+
+root(ROOT-0, Who-1)
+cop(Who-1, is-2)
+det(President-4, the-3)
+nsubj(Who-1, President-4)
+det(States-8, the-6)
+nn(States-8, United-7)
+prep_of(President-4, States-8)
+prep_of(States-8, America-10)
+
+(ROOT
+  (SBARQ
+    (WHPP (IN During)
+      (WHNP (WDT what) (NN war)))
+    (SQ (VBD did)
+      (NP (NNP Benedict) (NNP Arnold))
+      (VP (VB become)
+        (NP (DT a) (NN traitor))
+        (PP (TO to)
+          (NP (DT the) (JJ American) (NNS people)))))
+    (. ?)))
+
+det(war-3, what-2)
+prep_during(become-7, war-3)
+aux(become-7, did-4)
+nn(Arnold-6, Benedict-5)
+nsubj(become-7, Arnold-6)
+root(ROOT-0, become-7)
+det(traitor-9, a-8)
+xcomp(become-7, traitor-9)
+det(people-13, the-11)
+amod(people-13, American-12)
+prep_to(become-7, people-13)
+
+(ROOT
+  (SBARQ
+    (WHPP (IN In)
+      (WHNP (WDT which) (JJ European) (NN city)))
+    (SQ (MD can)
+      (NP (PRP you))
+      (VP (VB find)
+        (NP
+          (NP (DT the) (`` ``) (NN Mouth))
+          (PP (IN of)
+            (NP (NNP Truth)))
+          ('' ''))))
+    (. ?)))
+
+det(city-4, which-2)
+amod(city-4, European-3)
+prep_in(find-7, city-4)
+aux(find-7, can-5)
+nsubj(find-7, you-6)
+root(ROOT-0, find-7)
+det(Mouth-10, the-8)
+dobj(find-7, Mouth-10)
+prep_of(Mouth-10, Truth-12)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ (VBD was)
+      (NP
+        (NP (DT the) (NN messenger))
+        (PP (IN of)
+          (NP (DT the) (NNP Roman) (NNS Gods)))))
+    (. ?)))
+
+root(ROOT-0, Who-1)
+cop(Who-1, was-2)
+det(messenger-4, the-3)
+nsubj(Who-1, messenger-4)
+det(Gods-8, the-6)
+nn(Gods-8, Roman-7)
+prep_of(messenger-4, Gods-8)
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT Which) (NN company))
+    (SQ
+      (VP (VBD took)
+        (PP (IN over)
+          (NP
+            (NP (NN production))
+            (PP (IN of)
+              (NP (NNP Rolls-Royce) (NNS cars)))))
+        (PP (IN in)
+          (NP (CD 2003)))))
+    (. ?)))
+
+det(company-2, Which-1)
+nsubj(took-3, company-2)
+root(ROOT-0, took-3)
+prep_over(took-3, production-5)
+nn(cars-8, Rolls-Royce-7)
+prep_of(production-5, cars-8)
+prep_in(took-3, 2003-10)
+

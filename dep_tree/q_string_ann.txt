@@ -1,0 +1,23 @@
+(ROOT
+  (SBARQ
+    (WHPP (IN During)
+      (WHNP (WDT what) (NN war)))
+    (SQ (VBD did)
+      (NP (NNP Bendict_Arnold))
+      (VP (VB become)
+        (NP (DT a) (NN traitor))
+        (PP (TO to)
+          (NP (DT the) (JJ American) (NNS people)))))
+    (. ?)))
+
+det(war-3, what-2)
+prep_during(become-6, war-3)
+aux(become-6, did-4)
+nsubj(become-6, Bendict_Arnold-5)
+root(ROOT-0, become-6)
+det(traitor-8, a-7)
+xcomp(become-6, traitor-8)
+det(people-12, the-10)
+amod(people-12, American-11)
+prep_to(become-6, people-12)
+
