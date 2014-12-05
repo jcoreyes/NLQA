@@ -1,0 +1,108 @@
+---------------------------------------------------------------------------------------------------
+    Code for QANTA, described in the following paper:
+    A Neural Network for Factoid Question Answering over Paragraphs
+    Mohit Iyyer, Jordan Boyd-Graber, Leonardo Claudino, Richard Socher, and Hal Daumé III.
+    Empirical Methods in Natural Language Processing (EMNLP), 2014
+
+    Contact Mohit at miyyer@umd.edu for questions or comments.
+---------------------------------------------------------------------------------------------------
+
+
+What is it?
+---------------------------------------------------------------------------------------------------
+    QANTA is a "question answering neural network with trans-sentential averaging". 
+    Enclosed in this package is code to train QANTA along with
+    two datasets (history and literature questions). We also provide code to
+    evaluate trained models and transform other data into the format that QANTA requires.
+
+
+Dependencies:
+---------------------------------------------------------------------------------------------------
+    - Python (mine: 2.7.7), numpy (mine: 1.8.1), scikit-learn (mine: 0.14.1), nltk (mine: 2.0.4)
+    - Tip: an easy way to get all the dependencies at once is to download the free Anaconda 
+      Python distribution: http://continuum.io/downloads
+
+    - People have encountered bugs with numpy versions older than 1.7 and older sklearn versions,
+      but newer versions shouldn't cause any problems. Let me know if you run into any issues.
+
+
+Data specifics:
+---------------------------------------------------------------------------------------------------
+    Since we used proprietary data from NAQT in the experiments reported in our paper,
+    the provided datasets are significantly smaller than the ones we used.
+    In particular, the history dataset contains 1,713 questions (8,149 sentences) and 
+    the literature dataset contains 2,246 questions (10,552 sentences). These questions (and
+    questions from other categories) are publically available at:
+    https://code.google.com/p/protobowl/downloads/detail?name=shuffled.json
+
+        Sample question:
+            This author describes the last Neanderthals being killed by Homo sapiens in his The 
+            Inheritors, and a lone British naval officer hallucinates survival on a barren rock
+            in his Pincher Martin. In another of his novels, the title entity speaks to Simon 
+            atop a wooden stick; later in that novel, the followers of Jack steal Piggy's 
+            glasses and break the conch shell of Ralph, their former chief. For 10 points, 
+            name this British author who described boys on a formerly deserted island in his 
+            Lord of the Flies.
+
+        A: Lord of the Flies
+
+
+How do I train a model?
+---------------------------------------------------------------------------------------------------
+    - To train a model on the history dataset with default parameters, use the following command:
+        python qanta.py
+
+    - To train a model on the literature dataset, use this command:
+        python qanta.py -data 'data/lit_split' -We 'data/lit_We' -b 341 -o 'models/lit_params'
+
+    - For detailed explanation of QANTA's hyperparameters, use the help command:
+        python qanta.py -h
+
+    - You can get better performance to a point (along with a longer training time) by increasing 
+      the number of training epochs. For the results reported in the paper I ran the script for 
+      50 epochs. You can also train faster by increasing the number of cores used (default=6,
+      change as per your machine's specs).
+
+    - The resulting model is pickled and dumped into the models directory. 
+
+
+Okay, I've trained a model. How do I evaluate it?
+---------------------------------------------------------------------------------------------------
+    - Use the evaluate script (see following example):
+        python evaluate_qanta.py -data data/hist_split -model models/hist_params
+
+    - This script will train a model on QANTA's learned representations and output both overall 
+      accuracy as well as accuracy at each sentence position of the question. In addition, it
+      will train BoW and BoW-DT baseline models (as described in the paper) for comparison.
+
+    - As a point of comparison, I get around 60% accuracy on the history dataset and 54% accuracy on 
+      literature with QANTA, which beats the BoW-DT baseline by 10-15% and the BoW baseline by ~20%.
+      This shows that QANTA is still effective on smaller datasets.
+
+
+That's cool. But how do I feed my own data into QANTA?
+---------------------------------------------------------------------------------------------------
+    - A preprocessing script has been provided to dependency parse your own questions and 
+      convert them into the tree format required by QANTA. You'll need to download the Stanford parser
+      (http://nlp.stanford.edu/software/lex-parser.shtml) to run the scripts. Also, a modified version
+      of the parsing script lexparser.sh has been provided to output only typed dependencies.
+
+
+Great. What if I want to modify QANTA's code for my own task?
+---------------------------------------------------------------------------------------------------
+    - A single processor version of QANTA has been provided along with a toy dataset for development
+      purposes. If you mess with the propagation functions in rnn/propagation.py, you'll want to 
+      check your gradients on the toy dataset by running the following command:
+        python single_proc_qanta.py
+
+
+What should I cite if I use this code?
+---------------------------------------------------------------------------------------------------
+    @inproceedings{Iyyer:Boyd-Graber:Claudino:Socher:Daume-2014,
+            Title = {A Neural Network for Factoid Question Answering over Paragraphs},
+            Author = {Mohit Iyyer and Jordan Boyd-Graber and Leonardo Claudino and Richard Socher 
+            and Hal Daume III},
+            Booktitle = {Empirical Methods in Natural Language Processing},
+            Year = {2014},
+            Location = {Doha, Qatar},
+        }
