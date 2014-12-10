@@ -21,10 +21,11 @@ if __name__ == '__main__':
     inp, outp = sys.argv[1:3]
 
     wiki = WikiCorpus(inp, dictionary={})
-    model = Word2Vec(size=300, window=5, min_count=5, workers=3)
+    model = Word2Vec(size=300, window=5, min_count=5, workers=8)
     sentences = wiki.get_texts()
     model.build_vocab(sentences)
     sentences = wiki.get_texts()
     model.train(sentences)
-    model.init_sims(replace=True)
     model.save(outp)
+    model.init_sims(replace=True)
+    model.save('trimmed-model')
