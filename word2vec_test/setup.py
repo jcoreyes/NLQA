@@ -1,5 +1,7 @@
-from RAKE.rake import Rake
-from gensim.models import TfidfModel, Word2Vec
+from gensim.models import Word2Vec
+
+from word2vec_test.word2vec_api.RAKE.rake import Rake
+
 
 def QA(question):
 	# model = Word2Vec.load('out')
